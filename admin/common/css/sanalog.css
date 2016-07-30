@@ -1,0 +1,1315 @@
+/*
+ YÖNETÝM PANELÝ KONTROLÜ
+ Bu dosya silinmemelidir! Deðiþiklik yaparken çok dikkatli olunmalýdýr.
+ Sanalog yönetim panelinin önemli bazý görsel iþlevleri bu dosyadan yönetilir.
+
+ ADMIN CONTROLS
+ This file should be deleted! It should be very careful when making changes.
+  Sanalog some important visual functions of the government panel ruled that file.
+*/
+
+
+
+
+
+
+/*CONTROLS*/
+
+/** The vertical centered content **/
+html.bootstrap-admin-vertical-centered {
+    height: 100%;
+    overflow: hidden;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+}
+
+    html.bootstrap-admin-vertical-centered body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding-bottom: 160px;
+    }
+
+    html.bootstrap-admin-vertical-centered .container {
+        display: table;
+        height: 100%;
+        padding: 0;
+        width: 100%;
+    }
+
+        html.bootstrap-admin-vertical-centered .container .row {
+            display: table-cell;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+/** Body **/
+    body.bootstrap-admin-with-small-navbar {
+        padding-top: 95px;
+    }
+
+/** Main container **/
+#content {
+    margin-left: 0px;
+}
+
+/** Forms */
+.form-group label.control-label {
+    line-height: normal;
+}
+
+.form-group label {
+    padding: 0;
+}
+
+.form-group input[type="checkbox"] {
+    margin-top: 9px;
+}
+
+/** Title of container for lists, some content etc. **/
+.bootstrap-admin-box-title {
+    display: inline;
+}
+
+/** Box above and below the title of content */
+.bootstrap-admin-above-content-title,
+.bootstrap-admin-below-content-title {
+    margin-bottom: 10px;
+}
+
+    .bootstrap-admin-above-content-title .above-content-title,
+    .bootstrap-admin-below-content-title .below-content-title {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+        .bootstrap-admin-above-content-title .above-content-title:first-of-type,
+        .bootstrap-admin-below-content-title .below-content-title:first-of-type {
+            margin-left: 0;
+        }
+
+        .bootstrap-admin-above-content-title .above-content-title .name,
+        .bootstrap-admin-below-content-title .below-content-title .name {
+            color: #5e5e5e;
+            font-weight: bold;
+        }
+
+        .bootstrap-admin-above-content-title .above-content-title .value,
+        .bootstrap-admin-below-content-title .below-content-title .value {
+        }
+
+/** Title of the content */
+.bootstrap-admin-content-title {
+    margin-bottom: 10px;
+}
+
+    .bootstrap-admin-content-title h1,
+    .bootstrap-admin-content-title h2 {
+        display: inline-block;
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+
+    .bootstrap-admin-content-title .action,
+    .bootstrap-admin-content-title-h1 .action {
+        float: right;
+        margin-left: 10px;
+        position: relative;
+        top: 5px;
+    }
+
+.bootstrap-admin-content-title-h2 .action {
+    top: 0;
+}
+
+.bootstrap-admin-content-title .action:last-child {
+    margin-left: 0;
+}
+
+.bootstrap-admin-content-title .action.action-shifted {
+    margin-left: 20px;
+}
+
+.bootstrap-admin-content-title .action.btn {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.bootstrap-admin-content-title-buttons {
+    float: right;
+}
+
+.bootstrap-admin-content-title.bootstrap-admin-content-subtitle {
+    margin-top: 25px;
+}
+
+    .bootstrap-admin-content-title.bootstrap-admin-content-subtitle .action {
+        top: 2px;
+    }
+
+.bootstrap-admin-content-title.bootstrap-admin-content-title-with-above-content {
+    margin-top: 5px;
+}
+
+.bootstrap-admin-content-title.bootstrap-admin-content-title-with-below-content {
+    margin-bottom: 5px;
+}
+
+/** Button which is an action */
+.btn.action:active {
+    box-shadow: none;
+}
+
+/** Table with actions */
+.bootstrap-admin-table-with-actions > thead > tr > th,
+.bootstrap-admin-table-with-actions > tbody > tr > th,
+.bootstrap-admin-table-with-actions > tfoot > tr > th,
+.bootstrap-admin-table-with-actions > thead > tr > td,
+.bootstrap-admin-table-with-actions > tbody > tr > td,
+.bootstrap-admin-table-with-actions > tfoot > tr > td {
+    line-height: 1.75;
+}
+
+/** Buttons placed into the Actions column */
+table > tbody > tr > td.actions {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+    table > tbody > tr > td.actions .btn {
+        font-size: 13px;
+    }
+
+/** The main panel **/
+.bootstrap-admin-main-panel {
+    margin-bottom: 0;
+}
+
+/** Content of the panel **/
+.bootstrap-admin-panel-content {
+    padding: 15px;
+}
+
+    .bootstrap-admin-panel-content table {
+        margin-bottom: 0;
+    }
+
+    .bootstrap-admin-panel-content dl {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+/** Panel with no-table content **/
+.bootstrap-admin-no-table-panel,
+.bootstrap-admin-no-table-panel-content {
+    float: left;
+    width: 100%;
+}
+
+/** Left, the first, column **/
+.bootstrap-admin-col-left {
+}
+
+/** Horizontal navbars */
+.bootstrap-admin-navbar-sm {
+    background-image: none;
+    background: #252024;
+    border: 0;
+    box-shadow: initial;
+    margin-bottom: 0;
+    z-index: 1030;
+    padding: 5px 0;
+}
+
+    .bootstrap-admin-navbar-sm .navbar-nav > .open > a,
+    .bootstrap-admin-navbar-sm .navbar-nav > .open > a:hover,
+    .bootstrap-admin-navbar-sm .navbar-nav > .open > a:focus {
+        background-color: #464646;
+    }
+
+    .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:first-child {
+        margin-left: 0;
+    }
+
+        .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:first-child > li:first-child > a {
+            padding-left: 0;
+        }
+
+    .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:last-child {
+        margin-right: 0;
+    }
+
+        .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav:last-child > li:last-child > a {
+            padding-right: 0;
+        }
+
+    .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li.text,
+    .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li a {
+        font-size: 13px;
+        padding: 3px 8px;
+    }
+
+    .bootstrap-admin-navbar-sm .navbar-collapse .navbar-nav li .special-menu {
+        color: #FFF;
+    }
+
+.bootstrap-admin-navbar-under-small {
+    top: 25px;
+    z-index: 1020;
+}
+
+.bootstrap-admin-navbar .navbar-nav > li > a:focus,
+.bootstrap-admin-navbar .navbar-nav > li > a:hover {
+    background-color: #ccc;
+    color: #222;
+}
+
+/** Side Bar **/
+.bootstrap-admin-navbar-side {
+    background-color: #fff;
+    max-height: none;
+    max-width: 228px;
+    padding: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+    box-shadow: 0 1px 4px rgba(0,0,0,.065);
+}
+
+    .bootstrap-admin-navbar-side > li > a {
+        display: block;
+        width: 190px\9;
+        margin: 0 0 -1px;
+        padding: 8px 14px;
+        border: 1px solid #e5e5e5;
+    }
+
+    .bootstrap-admin-navbar-side > .active > a,
+    .bootstrap-admin-navbar-side .active a:hover {
+        background-color: #1e7ae3;
+        color: #fff;
+    }
+
+    .bootstrap-admin-navbar-side > .active > a {
+        position: relative;
+        z-index: 2;
+        padding: 9px 15px;
+        border-bottom: 0;
+        border-top: 0;
+        text-shadow: 0 1px 0 rgba(0,0,0,.15);
+        -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+        -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+        box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
+    }
+
+.bootstrap-admin-col-left > .bootstrap-admin-navbar-side {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+    .bootstrap-admin-col-left > .bootstrap-admin-navbar-side > li:first-child > a {
+        -webkit-border-top-left-radius: 6px;
+        -webkit-border-top-right-radius: 6px;
+        -moz-border-radius-topleft: 6px;
+        -moz-border-radius-topright: 6px;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+
+    .bootstrap-admin-col-left > .bootstrap-admin-navbar-side > li:last-child > a {
+        -webkit-border-bottom-right-radius: 6px;
+        -webkit-border-bottom-left-radius: 6px;
+        -moz-border-radius-bottomright: 6px;
+        -moz-border-radius-bottomleft: 6px;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .bootstrap-admin-col-left > .bootstrap-admin-navbar-side > li .bootstrap-admin-navbar-side li a {
+        padding-left: 20px;
+    }
+
+/** Side Bar - Chevrons **/
+.bootstrap-admin-navbar-side .glyphicon {
+    float: right;
+    margin-top: 2px;
+    margin-right: -6px;
+    opacity: .25;
+}
+
+.bootstrap-admin-navbar-side > li > a:hover {
+    background-color: #f5f5f5;
+}
+
+.bootstrap-admin-navbar-side a:hover .glyphicon {
+    opacity: .5;
+}
+
+.bootstrap-admin-navbar-side .active .glyphicon,
+.bootstrap-admin-navbar-side .active a:hover .glyphicon {
+    opacity: 1;
+}
+
+.bootstrap-admin-navbar-side.affix {
+    top: 40px;
+}
+
+.bootstrap-admin-navbar-side.affix-bottom {
+    position: absolute;
+    top: auto;
+    bottom: 270px;
+}
+
+/** Thin navbar, e.g. for the breadcrumbs **/
+.bootstrap-admin-navbar-thin {
+    min-height: 0;
+}
+
+/** Breadcrumbs **/
+.bootstrap-admin-breadcrumb {
+    background: none;
+    margin: 8px 15px;
+    padding: 0;
+}
+
+/** Tabs */
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+    background-image: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+    background-repeat: repeat-x;
+    border: 1px solid #e0e0e0;
+    border-bottom-color: rgba(0, 0, 0, 0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.bootstrap-admin-tabs {
+    margin-bottom: 20px;
+}
+
+/** Alert **/
+.bootstrap-admin-alert {
+    padding: 10px 15px;
+}
+
+    .bootstrap-admin-alert h4 {
+        margin-bottom: 3px;
+    }
+
+/** Progress bars */
+.progress-with-value {
+    position: relative;
+}
+
+    .progress-with-value span.value-container {
+        color: #fff;
+        left: 50%;
+        position: absolute;
+    }
+
+    .progress-with-value span.value {
+        line-height: 21px;
+        margin-left: -50%;
+        text-shadow: 0 0 2px #111, 0 0 0.2em #111;
+    }
+
+.progress-bar-inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+    .progress-bar-inline .progress {
+        margin-bottom: 0;
+        margin-top: -3px;
+    }
+
+/** Labels */
+.bootstrap-admin-label-thin {
+    font-weight: normal;
+    padding-top: 0.3em;
+}
+
+/** Skip padding of elements on the edge **/
+.bootstrap-admin-no-edges-padding > div:first-child {
+    padding-left: 0;
+}
+
+.bootstrap-admin-no-edges-padding > div:last-child {
+    padding-right: 0;
+}
+
+/** Light, small paddings **/
+.bootstrap-admin-light-padding-bottom {
+    padding-bottom: 10px;
+}
+
+.bootstrap-admin-light-padding-top {
+    padding-top: 10px;
+}
+
+/** Footer **/
+.navbar-footer {
+    background-color: #FCFCFC;
+    margin-top: 15px;
+    margin-bottom: 0;
+    -webkit-box-shadow: 0px -5px 25px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -5px 25px -9px rgba(0,0,0,0.75);
+    box-shadow: 0px -5px 25px -9px rgba(0,0,0,0.75);
+}
+
+    .navbar-footer footer p {
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+
+/** Bootstrap 3 Typeahead plugin **/
+.typeahead {
+    z-index: 1051;
+}
+
+/** Disabling padding **/
+.bootstrap-admin-without-padding {
+    padding: 0;
+}
+
+/** Login form **/
+.bootstrap-admin-login-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+    .bootstrap-admin-login-form h1 {
+        font-size: 36px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .bootstrap-admin-login-form .form-group {
+        margin-bottom: 10px;
+        border: none;
+    }
+
+    .bootstrap-admin-login-form label {
+        font-size: 15px;
+    }
+
+    .bootstrap-admin-login-form input[type="text"],
+    .bootstrap-admin-login-form input[type="password"] {
+        font-size: 16px;
+        height: auto;
+        padding: 7px 9px;
+    }
+
+    .bootstrap-admin-login-form input[type="checkbox"] {
+        margin-right: 5px;
+    }
+
+    .bootstrap-admin-login-form button {
+        border-radius: 6px;
+        font-size: 18px;
+        line-height: 1.33;
+        padding: 10px 16px;
+    }
+
+/** Miscellaneous styles */
+.bootstrap-admin-currency-value {
+    text-align: right;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.bootstrap-admin-back-to-parent {
+    padding: 10px;
+    text-align: center;
+}
+
+    .bootstrap-admin-back-to-parent .text {
+    }
+
+    .bootstrap-admin-back-to-parent .action {
+        margin-left: 5px;
+    }
+
+
+
+/* sub menus arrows */
+.navbar-nav .sub-arrow, .navbar-nav .collapsible .sub-arrow {
+  position: static;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 6px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px dashed transparent;
+  border-bottom: 4px dashed transparent;
+  border-left: 4px dashed transparent;
+}
+
+.navbar-fixed-bottom .sub-arrow {
+  margin-top: -5px;
+  border-top: 4px dashed transparent;
+  border-bottom: 4px solid;
+}
+
+.navbar-nav ul .sub-arrow {
+  position: absolute;
+  right: 0;
+  margin-top: 6px;
+  margin-right: 15px;
+  border-top: 4px dashed transparent;
+  border-bottom: 4px dashed transparent;
+  border-left: 4px solid;
+}
+
+.navbar-nav ul a.has-submenu {
+  padding-right: 30px;
+}
+/* scrolling arrows for tall menus */
+.navbar-nav span.scroll-up, .navbar-nav span.scroll-down {
+  position: absolute;
+  display: none;
+  visibility: hidden;
+  height: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar-nav span.scroll-up-arrow, .navbar-nav span.scroll-down-arrow {
+  position: absolute;
+  top: -2px;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  border-top: 7px dashed transparent;
+  border-right: 7px dashed transparent;
+  border-bottom: 7px solid;
+  border-left: 7px dashed transparent;
+}
+
+.navbar-nav span.scroll-down-arrow {
+  top: 6px;
+  border-top: 7px solid;
+  border-right: 7px dashed transparent;
+  border-bottom: 7px dashed transparent;
+  border-left: 7px dashed transparent;
+}
+/* add more indentation for 2+ level sub in collapsible mode - Bootstrap normally supports just 1 level sub menus */
+.navbar-nav .collapsible ul .dropdown-menu > li > a,
+.navbar-nav .collapsible ul .dropdown-menu .dropdown-header {
+  padding-left: 35px;
+}
+
+.navbar-nav .collapsible ul ul .dropdown-menu > li > a,
+.navbar-nav .collapsible ul ul .dropdown-menu .dropdown-header {
+  padding-left: 45px;
+}
+
+.navbar-nav .collapsible ul ul ul .dropdown-menu > li > a,
+.navbar-nav .collapsible ul ul ul .dropdown-menu .dropdown-header {
+  padding-left: 55px;
+}
+
+.navbar-nav .collapsible ul ul ul ul .dropdown-menu > li > a,
+.navbar-nav .collapsible ul ul ul ul .dropdown-menu .dropdown-header {
+  padding-left: 65px;
+}
+/* fix SmartMenus sub menus auto width (subMenusMinWidth and subMenusMaxWidth options) */
+.navbar-nav .dropdown-menu > li > a {
+  white-space: normal;
+}
+
+.navbar-nav ul.sm-nowrap > li > a {
+  white-space: nowrap;
+}
+/* fix .navbar-right subs alignment */
+.navbar-right ul.dropdown-menu {
+  left: 0;
+  right: auto;
+}
+/* The following will make the sub menus collapsible for small screen devices (it's not recommended editing these) */
+.navbar-nav .collapsible ul {
+  display: none;
+  position: static !important;
+  top: auto !important;
+  left: auto !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+}
+
+  .navbar-nav .collapsible ul.sm-nowrap > li > a {
+    white-space: normal;
+  }
+
+.navbar-nav .collapsible iframe {
+  display: none;
+}
+
+.navbar-right > li.dropdown > a {
+  color: white !important;
+  background: #252024 !important;
+}
+
+
+/*Menu Arrow*/
+.sidebar-nav .menu .fa {
+  padding: 4px 7px;
+  margin-right: 2px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+
+/*Login Logo*/
+.login-logo-ico {
+  width: 70px;
+  margin-right: 5px;
+  height: auto;
+}
+
+/*Admin forgot Password Padding*/
+.modal-forgot {
+  padding: 20px;
+}
+
+/*Mobile View Btn*/
+.mobile-view-web-btn {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+  .mobile-view-web-btn i {
+    padding: 8px;
+    border-radius: 4px;
+    border: solid .08em #DDD;
+    color: #888;
+  }
+
+/*sanalog-announcements*/
+.sanalog-announcements {
+  background: #F3F3F3;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+  .sanalog-announcements ul {
+    margin: 0;
+    list-style: none;
+    padding-left: 10px;
+  }
+
+    .sanalog-announcements ul li {
+      list-style-type: disc;
+    }
+
+      .sanalog-announcements ul li a {
+        color: #868686;
+      }
+
+
+
+
+/*Admin Design Templates*/
+.sablon-design-iframe {
+  border: none;
+  width: 100%;
+  min-height: 650px;
+}
+
+.design-panel {
+  background-color: #565353;
+  padding: 0px 12px;
+  margin-bottom: 2px;
+  color: #F7F7F7 !important;
+  font-size: 9px;
+}
+
+  .design-panel a {
+    color: #F7F7F7 !important;
+    font-size: 14px;
+  }
+
+#snlgViewPage .tools {
+  display: inline-block !important;
+  float: right;
+}
+
+#snlgViewPage h4 {
+  font-size: 13px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.design-panel .tools {
+  display: none !important;
+}
+
+.design-panel .openBlok {
+  display: inline-block !important;
+}
+
+.design-panel h4 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.design-panel ul {
+  background: #777676;
+  font-size: 14px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+  .design-panel ul li {
+    padding-left: 0;
+    list-style: none;
+  }
+
+ul > li:before {
+  content: none;
+  color: #a6a6a6;
+  font-size: 17px;
+  line-height: 28px;
+  padding-right: 10px;
+  font-weight: 500;
+  display: inline-block;
+  width: 24px;
+  margin-left: -24px;
+}
+
+[id*='ctl00_CPH1_TreeKtgn'] {
+  background: #F7F7F7;
+  margin-bottom: 10px;
+}
+
+body.interface {
+  margin-top: 0;
+}
+
+.interface .btn {
+  height: auto;
+}
+
+.interface .scrolltop.vis {
+  visibility: hidden;
+}
+
+
+#snlgViewPage .container {
+  width: 100%;
+}
+
+#snlgViewPage .navbar-fixed-top {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  position: relative !important;
+}
+
+}
+
+#snlgViewPage .menu-toggle {
+  display: none !important;
+}
+
+#snlgViewPage .nav-lang {
+  display: none;
+}
+
+#snlgViewPage .content {
+  padding-bottom: 0;
+}
+
+#snlgViewPage .wrapper {
+  min-height: auto !important;
+}
+
+#snlgViewPage .footer .container {
+  padding: 0;
+}
+
+}
+
+#Design {
+}
+
+#Design-in {
+  padding: 15px 0;
+}
+
+.snlg-main-row {
+  margin-top: 0;
+}
+
+  .snlg-main-row .navbar-top {
+    z-index: 1;
+  }
+
+#snlgViewPage {
+  background: #fff;
+  float: left;
+  border: #D5D5D5 1px solid;
+  margin-top: 100px;
+  width: 100%;
+}
+
+#designControls {
+  background: #2F2F2F;
+  padding: 20px;
+  overflow-y: scroll;
+  max-height: 650px;
+  position: relative;
+  top: 69px;
+  left: 0px;
+  z-index: 10;
+}
+
+@media (min-width: 550px) {
+  .snlg-main-row {
+    margin-top: 69px;
+  }
+
+  #designControls {
+    background: #2F2F2F;
+    padding: 60px 20px 60px 20px;
+    overflow-y: scroll;
+    max-height: 650px;
+    position: fixed;
+    top: 69px;
+    left: 0px;
+    z-index: 10;
+  }
+
+  #snlgViewPage {
+    background: #fff;
+    float: right;
+    border: #D5D5D5 1px solid;
+    margin-top: 70px;
+    width: 75%;
+  }
+}
+
+.errors-out {
+  display: block !important;
+}
+
+.save-button {
+  display: block !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  border-bottom: #ECECEC 17px solid;
+  background: #fff;
+  padding: 10px;
+  background: #FFF;
+  background: -moz-linear-gradient(top, #ffffff 0%, #f6f6f6 47%, #ededed 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF), color-stop(47%,#f6f6f6), color-stop(100%,#ededed));
+  background: -webkit-linear-gradient(top, #FFF 0%,#f6f6f6 47%,#ededed 100%);
+  background: -o-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+  background: -ms-linear-gradient(top, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+  background: linear-gradient(to bottom, #FFF 0%,#f6f6f6 47%,#ededed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 );
+}
+
+#designControls select {
+  display: none;
+}
+
+#Design span.tag {
+  display: block !important;
+  position: absolute;
+  top: -1px;
+  left: -5px;
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 30px 0;
+  box-shadow: -3px 3px 5px 0 rgba(0, 0, 0, 0.2);
+  background: -ms-linear-gradient(#e2e2e2, #cccccc);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#e2e2e2', endColorstr='#cccccc');
+  background: -webkit-gradient(linear, left top, left bottom, from(#e2e2e2), to(#ccc));
+  background: -moz-linear-gradient(top, #e2e2e2, #ccc);
+  background: -o-linear-gradient(top, #e2e2e2, #ccc);
+  color: #777;
+  font-weight: bold;
+  text-shadow: 1px 1px #fff;
+  font-family: Trebuchet MS;
+  z-index: 999;
+}
+
+#Design div.column {
+  padding: 5px !important;
+}
+
+#Design div.columnHead {
+  display: table;
+  border: 1px solid #ddd;
+  background: -ms-linear-gradient(#ffffff, #efefef);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#ffffff', endColorstr='#efefef');
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+  background: -moz-linear-gradient(top, #fff, #efefef);
+  background: -o-linear-gradient(top, #fff, #efefef);
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+}
+
+#Design div.columnParent {
+  margin: 0 !important;
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #ddd;
+  background: -ms-linear-gradient(#ffffff, #efefef);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr='#ffffff', endColorstr='#efefef');
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+  background: -moz-linear-gradient(top, #fff, #efefef);
+  background: -o-linear-gradient(top, #fff, #efefef);
+  border-radius: 0 0 4px 4px;
+}
+
+  #Design div.columnParent:focus {
+    background: #ccc;
+  }
+
+#Design span.columnTitle {
+  font-size: 14px;
+  margin: 0;
+  padding: 5px 5px 5px 10px !important;
+  display: block;
+  float: left;
+}
+
+#Design span.columnDescr {
+  display: none !important;
+  font-size: 11px;
+  line-height: 11px;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  margin: 11px 0 0 8px !important;
+  padding: 0 0 0 8px !important;
+  display: block;
+  float: left;
+}
+
+#Design div.columnMain {
+  padding: 5px 8px !important;
+  min-height: 20px;
+}
+
+#Design .ui-icon-plusthick {
+  background-position: -30px -128px;
+}
+
+#Design div.ui-sortable-placeholder {
+  border: 1px dotted black;
+  visibility: visible !important;
+  height: 50px !important;
+}
+
+  #Design div.ui-sortable-placeholder * {
+    visibility: hidden;
+  }
+
+
+/*Navbar*/
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: fixed !important;
+}
+
+.tree td {
+  display: -webkit-inline-box;
+}
+.navbar {
+min-height:initial;
+}
+.navbar-top {
+  top: 0;
+}
+
+.navbar-menu {
+}
+  .navbar-brand {
+  float: left;
+  padding: 0 15px 0 15px;
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: 700;
+}
+    .navbar-brand img {
+    height: 41px;
+    margin: 5px 0;
+    margin-right: 5px;
+	display: inline-block;
+  }
+@media (min-width: 768px) {
+  .navbar-brand img {
+    height: 40px;
+    margin: 5px 0;
+    margin-right: 5px;
+	display: inline-block;
+  }
+}
+.buttons {
+  top: 51px;
+}
+
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+
+
+.interface .navbar-fixed-top, .navbar-fixed-bottom {
+  position: inherit !important;
+}
+
+/*Jquery UI*/
+.ui-text {
+  font-size: 13px;
+}
+
+/*infinity menu*/
+ul.menu {
+  padding-left: 0;
+}
+
+[data-toggle] {
+  cursor: pointer;
+}
+
+ul.menu ul {
+  padding-left: 10px;
+}
+
+ul.menu a {
+  color: #000;
+}
+
+ul.menu .nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  color: #000;
+}
+
+.menu .nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: underline;
+  background-color: #fff;
+}
+
+ol.menu li, ul.menu li {
+  padding-left: 0;
+  border-bottom: #E0E0E0 1px solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style-type: none;
+}
+
+  ol.menu li:last-child, ul.menu li:last-child {
+    border-bottom: none;
+  }
+  /*sub*/
+  ol.menu li li a, ul.menu li li a {
+    padding: 0 0 0 0px !important;
+  }
+  /*sub sub*/
+  ol.menu li li li a, ul.menu li li li a {
+    padding: 0 0 0 20px;
+  }
+  /*sub sub sub*/
+  ol.menu li li li li a, ul.menu li li li li a {
+    padding: 0 0 0 30px;
+  }
+  /*sub sub sub sub*/
+  ol.menu li li li li li a, ul.menu li li li li li a {
+    padding: 0 0 0 40px;
+  }
+
+#GeoChart {
+  background: rgba(0, 0, 0, .075);
+  width: 100%;
+  height: 190px;
+}
+
+.blok-search {
+  position: fixed;
+  background: #535765;
+  padding: 10px;
+  top: 69px;
+  left: 0;
+  width: 23.4%;
+  z-index: 100;
+}
+
+
+/**/
+.quick-tools a {
+    color: #000;
+    text-decoration: none;
+}
+
+    .quick-tools a:hover {
+        color: #000;
+        text-decoration: none;
+    }
+
+.slogan {
+    color: #ADADAD;
+    padding-top: 3px;
+}
+
+.sayi {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.07em;
+}
+
+.panel-body .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+td.flag {
+    float: right;
+    margin-top: 2px;
+}
+
+td.text {
+    width: 94%;
+}
+
+    td.text .form-control {
+        margin-bottom: 5px;
+    }
+
+.tree tr {
+    border-bottom: #E5E5E5 1px solid;
+}
+
+	/*BOX*/
+.box {
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    position:relative;
+}
+
+    .box p {
+        font-size: 11px;
+    }
+
+@media screen and (min-width: 1100px) {
+    .box p {
+        font-size: 13px;
+    }
+}
+
+.box .p-static {
+    max-height: 45px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1100px) {
+    .box .p-static {
+        max-height: 55px;
+        overflow: hidden;
+    }
+}
+
+.box h3 {
+    margin-bottom: 7px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 1100px) {
+    .box h3 {
+        margin-top: 45px;
+        margin-bottom: 10px;
+        font-size: 26px;
+        font-weight: 400;
+    }
+}
+
+.box h1, .box h2, .box h3, .box h4, .box h5 {
+    padding-left: 0 !important;
+}
+
+.box-title {
+    font-size: 26px !important;
+    font-weight: 300;
+    line-height: 39px;
+}
+.box-grey {
+    background: #F0F0F0;
+    color: #000;
+    border: #EAEAEA 1px solid;
+}
+
+    .box-grey .box-link {
+        color: #000;
+        text-decoration: underline;
+        font-size: 13px;
+    }
+
+        .box-grey .box-link:hover {
+            color: #000;
+            text-decoration: none;
+        }
+		.box-padding-xs {
+    padding: 10px;
+}
+
+.box-padding-sm {
+    padding: 20px;
+}
+
+.box-padding-md {
+    padding: 30px;
+}
+
+.box-padding-lg {
+    padding: 100px;
+}
+
+.box-text-xs {
+    font-size: 12px !important;
+}
+
+.box-text-sm {
+    font-size: 13px !important;
+}
+
+.box-text-md {
+    font-size: 18px !important;
+}
+
+.box-text-lg {
+    font-size: 23px !important;
+}

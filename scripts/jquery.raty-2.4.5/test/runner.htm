@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>jQuery Test Runner</title>
+
+		<link rel="stylesheet" type="text/css" href="lib/jasmine.css">
+		
+		<script type="text/javascript" charset="utf-8" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="../js/jquery.raty.js"></script>
+
+		<script type="text/javascript" charset="utf-8" src="lib/jasmine.js"></script>
+		<script type="text/javascript" charset="utf-8" src="lib/jasmine-html.js"></script>
+		<script type="text/javascript" charset="utf-8" src="lib/jasmine-jquery.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+		describe('', function() {
+
+			beforeEach(function() {
+			    $('body').append('<div id="star"></div><div class="star">1</div><div class="star">2</div><div class="star">3</div>');
+			});
+
+			it ('[score / readOnly] should not set score when it is read-only', function() {
+				// given
+				var star = $('#star').raty({ readOnly: true });
+
+				// when
+				star.raty('score', 1);
+
+				// then
+				var imgs = star.children('img');
+
+				expect(imgs.eq(0)).toHaveAttr('src', 'img/star-off.png');
+				expect(imgs.eq(1)).toHaveAttr('src', 'img/star-off.png');
+				expect(imgs.eq(2)).toHaveAttr('src', 'img/star-off.png');
+				expect(imgs.eq(3)).toHaveAttr('src', 'img/star-off.png');
+				expect(imgs.eq(4)).toHaveAttr('src', 'img/star-off.png');
+			});
+
+		});
+
+			jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+			jasmine.getEnv().execute();
+		</script>
+	</body>
+</html>

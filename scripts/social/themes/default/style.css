@@ -1,0 +1,305 @@
+iframe #widget {
+    overflow:visible !important;
+}
+#shareplus {
+display: none;
+    position: fixed;
+    width: 500px;
+    z-index: 10000;
+    font-size: 12px;
+    background: rgba(26, 26, 26, 0.95);
+    color: #4E4E4E;
+    padding: 20px;
+    -moz-box-shadow: 0 0 5px #555;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* --------------- Hide on small screens + while printing --------------- */
+
+@media only screen and (max-width: 600px), print {
+	#shareplus, #shareplus_overlay, #shareplus_sticker {
+		display: none !important;
+	}
+}
+
+/* --------------- Title --------------- */
+
+#shareplus_title {
+	
+	padding: 10px 5px;
+	border: none;
+
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#shareplus_title span#shareplus_close a {
+	float: right;
+	margin: -5px;
+
+	color: #fff;
+	text-decoration: none;
+	padding: 2px 5px;
+	background: rgba(71, 71, 71, 0.5);
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* --------------- Icons List --------------- */
+
+#shareplus_icons {
+	overflow: auto;
+
+	background: #fff;
+	padding: 10px;
+
+	border: 1px #1a1a1a solid;
+	border-bottom: none;
+
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#shareplus_icons .shareplus_icon {
+	float: left;
+	width: 67px;
+	height: 32px;
+	margin: 5px 10px;
+
+	opacity: 0.9;
+}
+
+#shareplus_icons a.shareplus_icon {
+	color: #1a1a1a;
+	text-decoration: none;
+	padding-left: 32px;
+}
+
+#shareplus_icons .shareplus_icon:hover span {
+	color: red;
+	text-decoration: none;
+}
+
+#shareplus_icons .shareplus_icon:hover {
+	opacity: 1;
+}
+
+#shareplus_icons .shareplus_icon span {
+	float: left;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+
+/* --------------- Social Icons --------------- */
+
+#shareplus_icons .email {
+	background: url(images/icons/email.png) left center no-repeat;
+}
+
+#shareplus_icons .digg {
+	background: url(images/icons/digg.png) left center no-repeat;
+}
+
+#shareplus_icons .linkedin {
+	background: url(images/icons/linkedin.png) left center no-repeat;
+}
+
+#shareplus_icons .technorati {
+	background: url(images/icons/technorati.png) left center no-repeat;
+}
+
+#shareplus_icons .delicious {
+	background: url(images/icons/delicious.png) left center no-repeat;
+}
+
+#shareplus_icons .yahoo {
+	background: url(images/icons/yahoo.png) left center no-repeat;
+}
+
+#shareplus_icons .google {
+	background: url(images/icons/google.png) left center no-repeat;
+}
+
+#shareplus_icons .newsvine {
+	background: url(images/icons/newsvine.png) left center no-repeat;
+}
+
+#shareplus_icons .reddit {
+	background: url(images/icons/reddit.png) left center no-repeat;
+}
+
+#shareplus_icons .live {
+	background: url(images/icons/live.png) left center no-repeat;
+}
+
+#shareplus_icons .facebook {
+	background: url(images/icons/facebook.png) left center no-repeat;
+}
+
+#shareplus_icons .twitter {
+	background: url(images/icons/twitter.png) left center no-repeat;
+}
+
+#shareplus_icons .stumble {
+	background: url(images/icons/stumble.png) left center no-repeat;
+}
+
+#shareplus_icons .orkut {
+	background: url(images/icons/orkut.png) left center no-repeat;
+}
+
+#shareplus_icons .bebo {
+	background: url(images/icons/bebo.png) left center no-repeat;
+}
+
+#shareplus_icons .evernote {
+	background: url(images/icons/evernote.png) left center no-repeat;
+}
+
+#shareplus_icons .mixx {
+	background: url(images/icons/mixx.png) left center no-repeat;
+}
+
+#shareplus_icons .myspace {
+	background: url(images/icons/myspace.png) left center no-repeat;
+}
+
+#shareplus_icons .netvibes {
+	background: url(images/icons/netvibes.png) left center no-repeat;
+}
+
+#shareplus_icons .tumblr {
+	background: url(images/icons/tumblr.png) left center no-repeat;
+}
+
+#shareplus_icons .friendfeed {
+	background: url(images/icons/friendfeed.png) left center no-repeat;
+}
+
+#shareplus_icons .design_moo {
+	background: url(images/icons/design_moo.png) left center no-repeat;
+}
+
+#shareplus_icons .designfloat {
+	background: url(images/icons/designfloat.png) left center no-repeat;
+}
+
+#shareplus_icons .design_bump {
+	background: url(images/icons/design_bump.png) left center no-repeat;
+}
+
+#shareplus_icons .squidoo {
+	background: url(images/icons/squidoo.png) left center no-repeat;
+}
+
+#shareplus_icons .yahoo_buzz {
+	background: url(images/icons/yahoo_buzz.png) left center no-repeat;
+}
+
+#shareplus_icons .print {
+	background: url(images/icons/print.png) left center no-repeat;
+}
+
+#shareplus_icons .favorites {
+	background: url(images/icons/favorites.png) left center no-repeat;
+}
+
+/* --------------- Extras --------------- */
+
+#shareplus_extras {
+	background: #f9f9f9;
+	padding: 10px;
+
+	border: 1px #1a1a1a solid;
+	border-top: 1px #d5d5d5 solid;
+
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#shareplus_extras iframe {
+	margin-right: 10px;
+	padding: 5px;
+}
+
+/* --------------- Dark Overlay --------------- */
+
+body {
+     height:100%;
+     margin:0;
+     padding:0;
+}
+
+#shareplus_overlay {
+     display: none;
+     position: fixed;
+     left: 0px;
+     top: 0px;
+     width:100%;
+     height:100%;
+     z-index: 1000;
+
+     background-color: rgba(26, 26, 26, 0.5);
+     background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(0, 0, 0, .1)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(0, 0, 0, .1)), color-stop(.75, rgba(0, 0, 0, .1)), color-stop(.75, transparent), to(transparent));
+     background-image: -webkit-linear-gradient(-45deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .1) 50%, rgba(0, 0, 0, .1) 75%, transparent 75%, transparent);
+     background-image: -moz-linear-gradient(-45deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .1) 50%, rgba(0, 0, 0, .1)) 75%, transparent 75%, transparent);
+     background-image: -ms-linear-gradient(-45deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .1) 50%, rgba(0, 0, 0, .1) 75%, transparent 75%, transparent);
+     background-image: -o-linear-gradient(-45deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .1) 50%, rgba(0, 0, 0, .1) 75%, transparent 75%, transparent);
+     background-image: linear-gradient(-45deg, rgba(0, 0, 0, .1) 25%, transparent 25%, transparent 50%, rgba(0, 0, 0, .1) 50%, rgba(0, 0, 0, .1) 75%, transparent 75%, transparent);
+
+     -webkit-background-size: 50px 50px;
+     -moz-background-size: 50px 50px;
+     background-size: 50px 50px;
+}
+
+/* --------------- Sticker --------------- */
+
+#shareplus_sticker {
+	position: fixed;
+	top: 20%;
+	width: 30px;
+	height: 80px;
+
+	background: #1a1a1a url(images/sticker.png) center no-repeat;
+
+	right: 0;
+
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#shareplus_sticker.right {
+	left: auto;
+}
+
+#shareplus_sticker.left {
+	right: auto;
+	left: 0;
+
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}

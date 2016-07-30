@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="yorumlar_ascx_Yorum" xml:space="preserve">
+    <value>Yorumunuz</value>
+    <comment>Makale yorum formunda kullanılır.</comment>
+  </data>
+  <data name="yorumlar_ascx_Post" xml:space="preserve">
+    <value>Gönder</value>
+    <comment>Makale yorum formunda kullanılır.</comment>
+  </data>
+  <data name="hataBeklenmeyen" xml:space="preserve">
+    <value>Beklenmeyen bir hata oluştu.</value>
+    <comment>Sitede beklenmeyen bir hata oluştuğu takdirde gösterilen uyarı.</comment>
+  </data>
+  <data name="urun_detay_ascx_hata03" xml:space="preserve">
+    <value>Bu içeriği görmek için üye girişi yapmanız gerekmektedir.</value>
+    <comment>Ürün üyeye özel yazılmış ise gösterilen uyarı mesajı.</comment>
+  </data>
+  <data name="makale_detay_ascx_hata03" xml:space="preserve">
+    <value>Bu içeriği görmek için üye girişi yapmanız gerekmektedir.</value>
+    <comment>Makale üyeye özel yazılmış ise gösterilen uyarı mesajı.</comment>
+  </data>
+  <data name="global_hata01" xml:space="preserve">
+    <value>Bu sayfaya girebilmek için üye girişi yapmanız gerekmektedir.</value>
+    <comment>Üye yetkisi gereken içerik için gösterilen uyarı.</comment>
+  </data>
+  <data name="global_hata02" xml:space="preserve">
+    <value>Bu sayfa üye olmayanlar için hazırlanmıştır.</value>
+    <comment>Üye olmayanlar için hazırlanan içeriğe yetkisiz erişimde gösterilen uyarı.</comment>
+  </data>
+  <data name="duyuru_detay_ascx_hata03" xml:space="preserve">
+    <value>Bu içeriği görmek için üye girişi yapmanız gerekmektedir.</value>
+    <comment>Duyuru üyeye özel yazılmış ise gösterilen uyarı mesajı.</comment>
+  </data>
+  <data name="uyelik_ascx_adres" xml:space="preserve">
+    <value>Adres</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_ceptel" xml:space="preserve">
+    <value>Cep Telefonu</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_detay" xml:space="preserve">
+    <value>Hakkınızda </value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_dtarih" xml:space="preserve">
+    <value>Doğum Tarihi</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_dyeri" xml:space="preserve">
+    <value>Doğum Yeri</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_eposta" xml:space="preserve">
+    <value>E-Posta adresi</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_evtel" xml:space="preserve">
+    <value>Ev Telefonu</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_faks" xml:space="preserve">
+    <value>Faks No</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_firma" xml:space="preserve">
+    <value>Firma İsmi</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_hata03" xml:space="preserve">
+    <value>Boş bırakılamaz.</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_hata04" xml:space="preserve">
+    <value>Yazdığınız şifreler birbirinin aynısı olmalıdır.</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_hata05" xml:space="preserve">
+    <value>Herhangi bir seçim yapmadınız.</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır. Kullanıcı listeden herhangi birşey seçmediği takdride gösterilir.</comment>
+  </data>
+  <data name="uyelik_ascx_hata06" xml:space="preserve">
+    <value>Girdiğiniz veri hatalı.</value>
+    <comment>Üye bilgileri güncellerken girilen verilerde herhangi bir hata varsa gösterilen uyarı mesajı.</comment>
+  </data>
+  <data name="uyelik_asmx_hata07" xml:space="preserve">
+    <value>Bu kullanıcı adı başkası tarafından kullanılıyor.</value>
+    <comment>Üyelik ve üye bilgi güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_asmx_hata08" xml:space="preserve">
+    <value>Bu E-posta adresi başkası tarafından kullanılıyor.</value>
+    <comment>Üyelik ve üye bilgi güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_asmx_hata06" xml:space="preserve">
+    <value>Üyelik işleminiz gerçekleştirilmiştir.</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_isim" xml:space="preserve">
+    <value>Ad-Soyad</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_istel" xml:space="preserve">
+    <value>İş Telefonu</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_kaydet" xml:space="preserve">
+    <value>Sanaloger Ol</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_resim" xml:space="preserve">
+    <value>Resminiz</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_sifre" xml:space="preserve">
+    <value>Şifre</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_sifre2" xml:space="preserve">
+    <value>Tekrar şifre</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_TC" xml:space="preserve">
+    <value>TC No</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_user" xml:space="preserve">
+    <value>Kullanıcı adınız</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_VD" xml:space="preserve">
+    <value>Vergi Dairesi</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_VN" xml:space="preserve">
+    <value>Vergi Numarası</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_adres" xml:space="preserve">
+    <value>Adres</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_ceptel" xml:space="preserve">
+    <value>Cep Telefonu</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_detay" xml:space="preserve">
+    <value>Hakkınızda </value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_dtarih" xml:space="preserve">
+    <value>Doğum Tarihi</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_dyeri" xml:space="preserve">
+    <value>Doğum Yeri</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_eposta" xml:space="preserve">
+    <value>E-Posta adresi</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_evtel" xml:space="preserve">
+    <value>Ev Telefonu</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_faks" xml:space="preserve">
+    <value>Faks No</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_firma" xml:space="preserve">
+    <value>Firma İsmi</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_hata03" xml:space="preserve">
+    <value>Boş bırakılamaz.</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_hata04" xml:space="preserve">
+    <value>Yazdığınız şifreler birbirinin aynısı olmalıdır.</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_hata05" xml:space="preserve">
+    <value>Herhangi bir seçim yapmadınız.</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır. Kullanıcı listeden herhangi birşey seçmediği takdride gösterilir.</comment>
+  </data>
+  <data name="uye_bilg_ascx_hata06" xml:space="preserve">
+    <value>Girdiğiniz veri hatalı.</value>
+    <comment>Üye bilgileri güncellerken girilen verilerde herhangi bir hata varsa gösterilen uyarı mesajı.</comment>
+  </data>
+  <data name="uyelik_asmx_hata03" xml:space="preserve">
+    <value>Bu E-posta adresi başkası tarafından kullanılıyor.</value>
+    <comment>Üyelik ve üye bilgi güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_asmx_hata05" xml:space="preserve">
+    <value>Üyelik bilgileriniz güncellenmiştir.</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_isim" xml:space="preserve">
+    <value>Ad-Soyad</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_istel" xml:space="preserve">
+    <value>İş Telefonu</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_kaydet" xml:space="preserve">
+    <value>Kaydet</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_sifre" xml:space="preserve">
+    <value>Yeni Şifre</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_sifre2" xml:space="preserve">
+    <value>Tekrar Yeni Şifre</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_TC" xml:space="preserve">
+    <value>TC No</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_VD" xml:space="preserve">
+    <value>Vergi Dairesi</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_VN" xml:space="preserve">
+    <value>Vergi Numarası</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_asmx_hata10" xml:space="preserve">
+    <value>Girilen bilgilerde hatalar var.</value>
+    <comment>Üyelik ve üye bilgi güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_hata11" xml:space="preserve">
+    <value>Yanlızca rakam giriniz!</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="makale_asmx_hata03" xml:space="preserve">
+    <value>Boş bırakılamaz!</value>
+    <comment>Makale yorum formunda kullanılır.</comment>
+  </data>
+  <data name="makale_asmx_hata01" xml:space="preserve">
+    <value>Yorumunuz kaydedilmiştir. Onaylandıktan sonra yayınlanacaktır!</value>
+    <comment>Makaleye yorum yazıldıktan sonra gösterilen uyarı mesajı.</comment>
+  </data>
+  <data name="makale_asmx_hata02" xml:space="preserve">
+    <value>Girilen bilgilerde hatalar var!</value>
+    <comment>Makaleye yorum yazılırken hata oluşması durumunda gösterilen uyarı mesajı.</comment>
+  </data>
+  <data name="uye_bilg_ascx_esifre" xml:space="preserve">
+    <value>Eski şifreniz</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_asmx_hata04" xml:space="preserve">
+    <value>Şifrenizi yanlış girdiniz.</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="yeni_yorum_yaz_ascx_Dogrula" xml:space="preserve">
+    <value>Doğrulama kodu</value>
+    <comment>Makale yorum formunda kullanılır.</comment>
+  </data>
+  <data name="makale_asmx_hata04" xml:space="preserve">
+    <value>Doğrulama kodunu yanlış girdiniz.</value>
+    <comment>Makale yorum formunda kullanılır.</comment>
+  </data>
+  <data name="zdefteri_asmx_hata01" xml:space="preserve">
+    <value>Mesajınız kaydedilmiştir. Onaylandıktan sonra yayınlanacaktır!</value>
+    <comment>Ziyaretçi defteri formunda kullanılır.</comment>
+  </data>
+  <data name="zdefteri_asmx_hata02" xml:space="preserve">
+    <value>Girilen bilgilerde hatalar var!</value>
+    <comment>Ziyaretçi defteri formunda kullanılır.</comment>
+  </data>
+  <data name="zdefteri_asmx_hata04" xml:space="preserve">
+    <value>Doğrulama kodunu yanlış girdiniz.</value>
+    <comment>Ziyaretçi defteri formunda kullanılır.</comment>
+  </data>
+  <data name="zdefteri_yorumyaz_ascx_Dogrula" xml:space="preserve">
+    <value>Doğrulama kodu</value>
+    <comment>Ziyaretçi defteri formunda kullanılır.</comment>
+  </data>
+  <data name="zdefteri_yorumyaz_ascx_hata03" xml:space="preserve">
+    <value>Boş bırakılamaz!</value>
+    <comment>Ziyaretçi defteri formunda kullanılır.</comment>
+  </data>
+  <data name="zdefteri_yorumyaz_ascx_Konu" xml:space="preserve">
+    <value>Konu</value>
+    <comment>Ziyaretçi defteri formunda kullanılır.</comment>
+  </data>
+  <data name="zdefteri_yorumyaz_ascx_Mesaj" xml:space="preserve">
+    <value>Mesajınız</value>
+    <comment>Ziyaretçi defteri formunda kullanılır.</comment>
+  </data>
+  <data name="zdefteri_yorumyaz_ascx_post" xml:space="preserve">
+    <value>Gönder</value>
+    <comment>Ziyaretçi defteri formunda kullanılır.</comment>
+  </data>
+  <data name="zdefteri_yorumyaz_ascx_Yazan" xml:space="preserve">
+    <value>İsminiz</value>
+    <comment>Ziyaretçi defteri formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_ascx_Dogrula" xml:space="preserve">
+    <value>Doğrulama kodu</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="anket_asmx_hata01" xml:space="preserve">
+    <value>Seçiminiz kaydedilmiştir.</value>
+    <comment>Anket oylama sonucunda gösterilen bilgi mesajı.</comment>
+  </data>
+  <data name="anket_asmx_hata02" xml:space="preserve">
+    <value>Bilgilerinizde hatalar var.</value>
+    <comment>Oy kullanırken hata oluşması durumunda gösterilen uyarı mesajı.</comment>
+  </data>
+  <data name="uyelik_asmx_hata01" xml:space="preserve">
+    <value>Doğrulama kodunu yanlış girdiniz.</value>
+    <comment>Üyelik formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_asmx_hata09" xml:space="preserve">
+    <value>Şifre sıfırlama linki e-posta adresinize gönderilmiştir.</value>
+    <comment>Şifre hatırlatma formunda kullanılır.</comment>
+  </data>
+  <data name="uyelik_asmx_hata11" xml:space="preserve">
+    <value>Şifreniz gönderilirken hata oluştu. E-posta gönderilemiyor.</value>
+    <comment>Şifre hatırlatma formunda kullanılır.</comment>
+  </data>
+  <data name="uye_bilg_ascx_hata07" xml:space="preserve">
+    <value>Yanlızca rakam giriniz!</value>
+    <comment>Üye bilgileri güncelleme formunda kullanılır.</comment>
+  </data>
+  <data name="login_ascx_dogrula" xml:space="preserve">
+    <value>Doğrulama kodu</value>
+    <comment>Şifre hatırlatma formun kullanılır.</comment>
+  </data>
+  <data name="login_ascx_hata03" xml:space="preserve">
+    <value>Boş bırakılamaz!</value>
+    <comment>Üye giriş ve şifre hatırlatma formun kullanılır.</comment>
+  </data>
+  <data name="login_ascx_hata06" xml:space="preserve">
+    <value>Girdiğiniz veri hatalı!</value>
+    <comment>Üye giriş ve şifre hatırlatma formun kullanılır.</comment>
+  </data>
+  <data name="login_ascx_submit2" xml:space="preserve">
+    <value>Şifremi Gönder</value>
+    <comment>Şifre hatırlatma formun kullanılır.</comment>
+  </data>
+  <data name="login_ascx_submit" xml:space="preserve">
+    <value>Giriş</value>
+    <comment>Üye giriş formunda kullanılır.</comment>
+  </data>
+  <data name="login_ascx_sifre_unuttum" xml:space="preserve">
+    <value>Şifremi Unuttum</value>
+    <comment>Üye giriş formunda kullanılır.</comment>
+  </data>
+  <data name="login_ascx_sifre" xml:space="preserve">
+    <value>Şifre</value>
+    <comment>Şifre hatırlatma formun kullanılır.</comment>
+  </data>
+  <data name="login_ascx_user" xml:space="preserve">
+    <value>Kullanıcı adı</value>
+    <comment>Üye giriş formunda kullanılır.</comment>
+  </data>
+  <data name="login_ascx_eposta" xml:space="preserve">
+    <value>E-posta adresiniz</value>
+    <comment>Şifre hatırlatma formun kullanılır.</comment>
+  </data>
+  <data name="yorumlar_ascx_Yazan" xml:space="preserve">
+    <value>İsminiz</value>
+    <comment>Makale yorum formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_ascx_Dogrula" xml:space="preserve">
+    <value>Doğrulama kodu</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_ascx_eposta" xml:space="preserve">
+    <value>E-posta adresiniz.</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_ascx_hata02" xml:space="preserve">
+    <value>Yanlızca rakam giriniz!</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_ascx_hata03" xml:space="preserve">
+    <value>Boş bırakılamaz!</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_ascx_hata06" xml:space="preserve">
+    <value>Girdiğiniz veri hatalı.</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_ascx_isim" xml:space="preserve">
+    <value>İsminiz</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_ascx_kaydet" xml:space="preserve">
+    <value>Gönder</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_ascx_konu" xml:space="preserve">
+    <value>Konu</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_ascx_mesaj" xml:space="preserve">
+    <value>Mesajınız</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_ascx_tel" xml:space="preserve">
+    <value>Telefon</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_asmx_hata11" xml:space="preserve">
+    <value>Doğrulama kodunu yanlış girdiniz.</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_asmx_hata12" xml:space="preserve">
+    <value>Girilen bilgilerde hatalar var!</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_asmx_hata13" xml:space="preserve">
+    <value>Mesajınız başarıyla gönderilmiştir.</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="iletisim_asmx_hata14" xml:space="preserve">
+    <value>Mesajınız gönderilemedi. SMTP bilgileri sisteme tanımlanmamış olabilr.</value>
+    <comment>İletişim formunda kullanılır.</comment>
+  </data>
+  <data name="yorumlar_ascx_Eposta" xml:space="preserve">
+    <value>E-posta adresiniz</value>
+    <comment>Makale yorum formunda kullanılır.</comment>
+  </data>
+  <data name="makale_asmx_hata05" xml:space="preserve">
+    <value>Yorumunuz çok uzun.</value>
+    <comment>Makale yorum formunda kullanılır.</comment>
+  </data>
+  <data name="makale_yorum_hata01" xml:space="preserve">
+    <value>E-Posta adresi hatalı.</value>
+  </data>
+  <data name="yorumlar_ascx_cevapyaz" xml:space="preserve">
+    <value>Cevap Yaz</value>
+    <comment>Makale yorumları listelenirken cevap yaz butonunda kullanılır.</comment>
+  </data>
+  <data name="anketler_ascx_oylama" xml:space="preserve">
+    <value>Oylama Durumu</value>
+    <comment>Anket bloğunda kullanılır.</comment>
+  </data>
+  <data name="uye_hosgeldiniz_bilgi" xml:space="preserve">
+    <value>Bilgilerim</value>
+    <comment>Üye Hoşgeldiniz bloğu</comment>
+  </data>
+  <data name="uye_hosgeldiniz_hosgeldin" xml:space="preserve">
+    <value>Hoşgeldiniz</value>
+    <comment>Üye Hoşgeldiniz bloğu</comment>
+  </data>
+  <data name="uye_bilg_ascx_resim" xml:space="preserve">
+    <value>Resim Yükle</value>
+    <comment>Üye bilgileri formunda kullanılır</comment>
+  </data>
+  <data name="password_reset_Sifre_Values" xml:space="preserve">
+    <value>Yeni Şifre</value>
+  </data>
+  <data name="password_reset_Validtext_Values" xml:space="preserve">
+    <value>Doğrulama Kodu</value>
+  </data>
+  <data name="uye_bilg_ascx_duzenle" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="siparis_ascx_Gonder" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="uye_profile_geri_don" xml:space="preserve">
+    <value>Vazgeç</value>
+  </data>
+  <data name="siparis_ascx_vazgec" xml:space="preserve">
+    <value>Vazgeç</value>
+  </data>
+  <data name="siparis_form_adet" xml:space="preserve">
+    <value>Ürün Adet</value>
+  </data>
+  <data name="siparis_form_adres" xml:space="preserve">
+    <value>Açık Adresiniz</value>
+  </data>
+  <data name="siparis_form_adsoyad" xml:space="preserve">
+    <value>Adınız Soyadınız</value>
+  </data>
+  <data name="siparis_form_eposta" xml:space="preserve">
+    <value>E-Posta Adresiniz</value>
+  </data>
+  <data name="siparis_form_mesaj" xml:space="preserve">
+    <value>Belirmek İstediğiniz Detay Varsa...</value>
+  </data>
+  <data name="siparis_form_tel" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="siparis_form_title" xml:space="preserve">
+    <value>Ürün Sipariş Formu</value>
+  </data>
+  <data name="siparis_ver_btn" xml:space="preserve">
+    <value>Sipariş Ver</value>
+  </data>
+  <data name="tag_list_head_text" xml:space="preserve">
+    <value>etiketli makaleler listeleniyor</value>
+  </data>
+  <data name="article_categori_list_head_text" xml:space="preserve">
+    <value>kategorisindeki makaleler listeleniyor</value>
+  </data>
+  <data name="makale_detay_etiket_head" xml:space="preserve">
+    <value>Etiketler</value>
+  </data>
+  <data name="makale_yorum_cevap_modal_title" xml:space="preserve">
+    <value>Yorumu Cevapla</value>
+  </data>
+  <data name="makale_info_yayın_baslik" xml:space="preserve">
+    <value>Yayın</value>
+  </data>
+  <data name="makale_info_yayın_kategori" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="makale_info_yayın_oyla" xml:space="preserve">
+    <value>Oyla</value>
+  </data>
+  <data name="makale_info_yayın_yazar" xml:space="preserve">
+    <value>Yazar</value>
+  </data>
+  <data name="makale_info_yayın_yorum" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+  <data name="product_detail_urun_ozellikleri_baslik" xml:space="preserve">
+    <value>Ürün Özellikleri</value>
+  </data>
+  <data name="login_ascx_hata15" xml:space="preserve">
+    <value>Kayıtlı e-posta adresi bulunamadı.</value>
+  </data>
+  <data name="login_ascx_hata16" xml:space="preserve">
+    <value>Beklenmeyen bir hata oluştu. Sql Hatası.</value>
+  </data>
+  <data name="login_ascx_hata12" xml:space="preserve">
+    <value>Şifreleriniz uyuşmuyor.</value>
+  </data>
+  <data name="login_ascx_hata13" xml:space="preserve">
+    <value>Şifreniz değiştirildi.</value>
+  </data>
+  <data name="login_ascx_hata14" xml:space="preserve">
+    <value>Kullanıcı adı veya şifre hatalı.</value>
+  </data>
+  <data name="login_ascx_hata11" xml:space="preserve">
+    <value>E-posta adresiniz ve doğrulama kodunu giriniz.</value>
+  </data>
+  <data name="uye_bilg_ascx_sifre_kaydet" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="siparis_ascx_hata01" xml:space="preserve">
+    <value>Sipariş talebiniz bize ulaştı.</value>
+  </data>
+  <data name="siparis_ascx_hata02" xml:space="preserve">
+    <value>Sipariş maili göndnerilirken hata oluştu.</value>
+  </data>
+  <data name="siparis_form_Dogrula" xml:space="preserve">
+    <value>Doğrulama Kodu</value>
+    <comment>Siparis forumunda kullanılır.</comment>
+  </data>
+  <data name="siparis_ascx_hata03" xml:space="preserve">
+    <value>Doğrulama kodunu yanlış girdiniz.</value>
+    <comment>Sipariş formunda kullanılır.</comment>
+  </data>
+  <data name="product_detail_product_code" xml:space="preserve">
+    <value>Ürün Kodu</value>
+  </data>
+</root>

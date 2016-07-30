@@ -1,0 +1,1922 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="activities_aspx_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="activities_aspx_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="activities_aspx_help" xml:space="preserve">
+    <value>Bu bölümde oluşturmuş olduğun etkinlikler listelenmektedir. Varolan etkinliği düzenleyebilir, ya da seçip silebilirsin</value>
+  </data>
+  <data name="activities_aspx_list" xml:space="preserve">
+    <value>Activity List</value>
+  </data>
+  <data name="activities_aspx_name" xml:space="preserve">
+    <value>Header</value>
+  </data>
+  <data name="activities_aspx_new" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="activities_aspx_title" xml:space="preserve">
+    <value>Activities</value>
+  </data>
+  <data name="activitiy_form_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="activitiy_form_help" xml:space="preserve">
+    <value>Bu bölümde yeni etkinlik oluşturabilirsin. Etkinliğine bir şablon belirleyip içeriklerini girebilirsin.</value>
+  </data>
+  <data name="activitiy_form_name" xml:space="preserve">
+    <value>New Activity Form</value>
+  </data>
+  <data name="activitiy_form_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="activitiy_form_title" xml:space="preserve">
+    <value>Add Activity</value>
+  </data>
+  <data name="activity_content" xml:space="preserve">
+    <value>Activity Detail</value>
+  </data>
+  <data name="activity_edit" xml:space="preserve">
+    <value>Edit Activity</value>
+  </data>
+  <data name="activity_edit_form" xml:space="preserve">
+    <value>Activity Editing Form</value>
+  </data>
+  <data name="activity_edit_help" xml:space="preserve">
+    <value>You can edit activity</value>
+  </data>
+  <data name="activity_f_date" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="activity_image" xml:space="preserve">
+    <value>Add Image</value>
+  </data>
+  <data name="activity_image_delete" xml:space="preserve">
+    <value>Delete Image</value>
+  </data>
+  <data name="activity_s_date" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="activity_title" xml:space="preserve">
+    <value>Activity Title</value>
+  </data>
+  <data name="announce_add_close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="announce_add_content" xml:space="preserve">
+    <value>Announcement Content</value>
+  </data>
+  <data name="announce_add_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="announce_add_edit" xml:space="preserve">
+    <value>Edit Announcement</value>
+  </data>
+  <data name="announce_add_edit_help" xml:space="preserve">
+    <value>Edit All Announcement</value>
+  </data>
+  <data name="announce_add_form" xml:space="preserve">
+    <value>New Announcement Form</value>
+  </data>
+  <data name="announce_add_help" xml:space="preserve">
+    <value>Create New Announcements</value>
+  </data>
+  <data name="announce_add_img" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="announce_add_index" xml:space="preserve">
+    <value>Visibility in Search Engine?</value>
+  </data>
+  <data name="announce_add_new" xml:space="preserve">
+    <value>Announcement</value>
+  </data>
+  <data name="announce_add_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="announce_add_url" xml:space="preserve">
+    <value>URL &lt;small&gt;(Boş bırakılırsa otomatik verilir)&lt;/small&gt;</value>
+  </data>
+  <data name="add_view" xml:space="preserve">
+    <value>Visibility?</value>
+  </data>
+  <data name="announce_aspx_delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="announce_aspx_edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="announce_aspx_help" xml:space="preserve">
+    <value>Önceden Eklenmiş olan duyurularını takip edebilirsin; Yeni duyuru ekleyebilir ve eski duyurularını yeniden düzenleyebilirsin.</value>
+  </data>
+  <data name="announce_aspx_name" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="announce_aspx_new" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="announce_aspx_title" xml:space="preserve">
+    <value>Announcements</value>
+  </data>
+  <data name="announce_edit_form" xml:space="preserve">
+    <value>Announcement Editing Form</value>
+  </data>
+  <data name="article_aspx_title" xml:space="preserve">
+    <value>Makaleler</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="edit_lang" xml:space="preserve">
+    <value>Düzenlenecek dili seç</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="save_new" xml:space="preserve">
+    <value>Kaydet ve Yeni Ekle</value>
+  </data>
+  <data name="article_aspx_help" xml:space="preserve">
+    <value>Bu bölümde oluşturmuş olduğun makaleler listelenmektedir. Yeni butonuna tıklayıp yeni bir makale oluşturabilirsin. Düzenle butonuyla makalenin içeriğini değiştirebilirsin. Veya bir ya da birden çok makale seçip silebilirsin.</value>
+  </data>
+  <data name="article_aspx_edit" xml:space="preserve">
+    <value>Düzenle</value>
+  </data>
+  <data name="article_add_cat" xml:space="preserve">
+    <value>Categori</value>
+  </data>
+  <data name="article_add_content" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="article_add_date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="article_add_desc" xml:space="preserve">
+    <value>Description (Meta Description)</value>
+  </data>
+  <data name="article_add_form" xml:space="preserve">
+    <value>New Article Form</value>
+  </data>
+  <data name="article_add_image" xml:space="preserve">
+    <value>Add Pictures</value>
+  </data>
+  <data name="article_add_img" xml:space="preserve">
+    <value>Resim</value>
+  </data>
+  <data name="article_add_index" xml:space="preserve">
+    <value>Arama Motorları İndekslesin mi?</value>
+  </data>
+  <data name="article_add_meta" xml:space="preserve">
+    <value>Anahtar kelimeler (meta keyword)</value>
+  </data>
+  <data name="article_add_row" xml:space="preserve">
+    <value>Sıra</value>
+  </data>
+  <data name="article_add_small_content" xml:space="preserve">
+    <value>Kısa Bilgi</value>
+  </data>
+  <data name="article_add_url" xml:space="preserve">
+    <value>URL &lt;small&gt;(Boş bırakılırsa otomatik verilir.)&lt;/small&gt;</value>
+  </data>
+  <data name="article_aspx_cat" xml:space="preserve">
+    <value>Kategori Seçiniz</value>
+  </data>
+  <data name="article_aspx_delete" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="article_aspx_new" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="article_comment" xml:space="preserve">
+    <value>Makale Yorumları</value>
+  </data>
+  <data name="article_comment_help" xml:space="preserve">
+    <value>Bu bölümde ziyaretçilerin yazmış oldukları yorumlar yeralmaktadır. Onaylamak istediğini işaretleyip seçebilirsin.</value>
+  </data>
+  <data name="article_comment_succes" xml:space="preserve">
+    <value>Onaylananlar</value>
+  </data>
+  <data name="article_comment_waiting" xml:space="preserve">
+    <value>Onay Bekleyenler</value>
+  </data>
+  <data name="article_edit_form" xml:space="preserve">
+    <value>Makale İçeriği Düzenleme Formu</value>
+  </data>
+  <data name="article_edit_form_title" xml:space="preserve">
+    <value>Makale Düzenle</value>
+  </data>
+  <data name="article_edit_help" xml:space="preserve">
+    <value>Bu bölümde oluşturduğun makaleyi düzenleyebilirsin.</value>
+  </data>
+  <data name="article_form_help" xml:space="preserve">
+    <value>Bu bölümde yeni makale oluşturabilirsin. Resim ya da galeri ekleyebilir, ayrıca makalenizi kişiselleştirebilirsin.</value>
+  </data>
+  <data name="article_form_title" xml:space="preserve">
+    <value>Makale Ekle</value>
+  </data>
+  <data name="article_name" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="article_categories" xml:space="preserve">
+    <value>Oluşturulan Kategori</value>
+  </data>
+  <data name="article_cat_active" xml:space="preserve">
+    <value>Kategori aktif mi?</value>
+  </data>
+  <data name="article_cat_help" xml:space="preserve">
+    <value>Kategori düzenleme sayfasında, blog veya makalelerinizin sistemli olarak arşivlenmesi
+            için kategorilendirebilirsiniz. Kategorinizi ana kategori veya alt kategori olarak
+            belirleyebilirsiniz.</value>
+  </data>
+  <data name="article_cat_name" xml:space="preserve">
+    <value>Kategori İsmi</value>
+  </data>
+  <data name="article_cat_title" xml:space="preserve">
+    <value>Makale Kategori Oluşturma</value>
+  </data>
+  <data name="article_cat_url" xml:space="preserve">
+    <value>Kategori URL Adresi&lt;small&gt; (Boş bırakılırsa otomatik verilir) &lt;/small&gt;</value>
+  </data>
+  <data name="article_comment_comm" xml:space="preserve">
+    <value>Yorum</value>
+  </data>
+  <data name="article_comment_confirmation" xml:space="preserve">
+    <value>Onay</value>
+  </data>
+  <data name="article_comment_mail" xml:space="preserve">
+    <value>İlgili yorumculara e-posta gönder</value>
+  </data>
+  <data name="article_comment_writer" xml:space="preserve">
+    <value>Yazan</value>
+  </data>
+  <data name="mail" xml:space="preserve">
+    <value>E-posta</value>
+  </data>
+  <data name="all_view" xml:space="preserve">
+    <value>Everyone</value>
+  </data>
+  <data name="article_cat_select" xml:space="preserve">
+    <value>Üst Kategori Seçin</value>
+  </data>
+  <data name="article_zip_exp" xml:space="preserve">
+    <value>Zip dosyasından içerik oluşturun ve aşağıdaki uyarılara dikkat edin.</value>
+  </data>
+  <data name="article_zip_exp_1" xml:space="preserve">
+    <value>Zip dışında başka bir sıkıştırma formatı kabul edilmez.</value>
+  </data>
+  <data name="article_zip_exp_2" xml:space="preserve">
+    <value>Dosya ve klasör isimlendirirken tr karakter kullanmamaya özen gösteriniz.</value>
+  </data>
+  <data name="article_zip_exp_3" xml:space="preserve">
+    <value>Zip içerisinde yanlızca 1 html veya html dosyası olmalıdır.</value>
+  </data>
+  <data name="article_zip_exp_4" xml:space="preserve">
+    <value>Zip içerisinde en fazla 1 klasör bulunabilir. Tüm ek dosyalarınızı (resim, video) bu klasörde tutmalısınız.</value>
+  </data>
+  <data name="article_zip_exp_5" xml:space="preserve">
+    <value>Word dosyanızda hazırladığınız makaleyi yükleyebilmek için "farklı kaydet" tıklayıp "web sayfası filtre uygulanmış" seçeneğini seçerek kaydediniz. Daha sonra da oluşan htm dosyasını ve varsa klasörünü sıkıştırıp upload ediniz.</value>
+  </data>
+  <data name="article_zip_title" xml:space="preserve">
+    <value>Zip Makale Upload</value>
+  </data>
+  <data name="article_zip_upload" xml:space="preserve">
+    <value>Zip Dosyasını Yükle</value>
+  </data>
+  <data name="article_zip_up_form" xml:space="preserve">
+    <value>Upload Formu</value>
+  </data>
+  <data name="block_edit_delete" xml:space="preserve">
+    <value>Bloğu şablonlardan kaldır</value>
+  </data>
+  <data name="block_edit_design" xml:space="preserve">
+    <value>Hangi şablonlarda gösterilsin? "şablon adı + (konum)"</value>
+  </data>
+  <data name="block_edit_design_select" xml:space="preserve">
+    <value>Tüm şablonları seç</value>
+  </data>
+  <data name="block_edit_exp" xml:space="preserve">
+    <value>Açıklama (Ziyaretçi görmez)</value>
+  </data>
+  <data name="block_edit_help" xml:space="preserve">
+    <value>Bu bölümde şablonlar içerisinde bulunan bloklarınızı oluşturabilirsiniz. Gerekli bilgileri girdikten sonra kaydet butonuna basınız.Oluşturduğunuz bloğun hangi şablonlarda görünmesini istiyorsanız onları işaretleyin. Bu şablonda hangi kısımda yeralmasını istiyorsanız, orayı belirtin.</value>
+  </data>
+  <data name="block_edit_name" xml:space="preserve">
+    <value>Tanımlayıcı İsim</value>
+  </data>
+  <data name="block_edit_order" xml:space="preserve">
+    <value>Kaçıncı sırada gösterilsin?</value>
+  </data>
+  <data name="block_edit_place" xml:space="preserve">
+    <value>Şablonun neresinde gösterilsin?</value>
+  </data>
+  <data name="block_help" xml:space="preserve">
+    <value>Bu bölümde sistemde varolan kontrollerden oluşturulmuş blok tanımlamaları ve sizin manuel oluşturduğunuz bloklar yer almaktadır. Bu blokları dizayn bölümünden oluşturduğunuz şablonlara ekleyebilirsiniz. Yeni bir blok oluşturmak için sayfanın sağında bulunan yeni butonuna tıklayıp işleminizi gerçekleştirebilirsiniz.</value>
+  </data>
+  <data name="block_list" xml:space="preserve">
+    <value>Blok Listesi</value>
+  </data>
+  <data name="block_name" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="block_name_view" xml:space="preserve">
+    <value>Başlık Görünsün mü?</value>
+  </data>
+  <data name="block_title" xml:space="preserve">
+    <value>Bloklar</value>
+  </data>
+  <data name="block_edit_top_tx" xml:space="preserve">
+    <value>Blok Üst İçeriği</value>
+  </data>
+  <data name="content" xml:space="preserve">
+    <value>içerik</value>
+  </data>
+  <data name="edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="guest_view" xml:space="preserve">
+    <value>Yanlızca üye olmayanlar</value>
+  </data>
+  <data name="key_add" xml:space="preserve">
+    <value>Yetki Tanımlayın</value>
+  </data>
+  <data name="key_help" xml:space="preserve">
+    <value>Bu bölümde admin kontrol etttiğiniz yetkileri tanımlayabilirsiniz.</value>
+  </data>
+  <data name="key_meta" xml:space="preserve">
+    <value>Yetki Anahtar Kelimesi</value>
+  </data>
+  <data name="key_name" xml:space="preserve">
+    <value>Tanımlı Yetkiler</value>
+  </data>
+  <data name="key_title" xml:space="preserve">
+    <value>Yetki Tanımlamaları</value>
+  </data>
+  <data name="pasif_view" xml:space="preserve">
+    <value>Hiç kimse görmesin (Aktif değil)</value>
+  </data>
+  <data name="pro_edit" xml:space="preserve">
+    <value>Nitelikleri Düzenle</value>
+  </data>
+  <data name="user_view" xml:space="preserve">
+    <value>Yanlızca üyeler</value>
+  </data>
+  <data name="add_new" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="block_add_help" xml:space="preserve">
+    <value>Bu bölümde şablonlar içerisinde bulunan bloklarınızı oluşturabilirsiniz. Gerekli bilgileri girdikten sonra kaydet butonuna basınız.Oluşturduğunuz bloğun hangi şablonlarda görünmesini istiyorsanız onları işaretleyin. Bu şablonda hangi kısımda yeralmasını istiyorsanız, orayı belirtin.</value>
+  </data>
+  <data name="block_add_name" xml:space="preserve">
+    <value>Blok Başlığı</value>
+  </data>
+  <data name="block_add_title" xml:space="preserve">
+    <value>Yeni Blok</value>
+  </data>
+  <data name="block_att" xml:space="preserve">
+    <value>Nitelikler ve Değerleri</value>
+  </data>
+  <data name="block_att_add" xml:space="preserve">
+    <value>Yeni Nitelik Ekle</value>
+  </data>
+  <data name="block_att_add_value" xml:space="preserve">
+    <value>Alabileceği değerler (virgülle ayırarak giriniz)</value>
+  </data>
+  <data name="block_att_help" xml:space="preserve">
+    <value>Bu bölümde sitede kullanılan bloklar için nitelik tanmlayıp değerlerini güncelleyebilirsiniz.</value>
+  </data>
+  <data name="block_att_name" xml:space="preserve">
+    <value>Nitelik Adı</value>
+  </data>
+  <data name="block_att_title" xml:space="preserve">
+    <value>Nitelikleri Düzenle</value>
+  </data>
+  <data name="block_att_update" xml:space="preserve">
+    <value>Save Your Changes</value>
+  </data>
+  <data name="block_att_value" xml:space="preserve">
+    <value>Varsayılan Değeri</value>
+  </data>
+  <data name="block_content" xml:space="preserve">
+    <value>Blok İçeriği</value>
+  </data>
+  <data name="block_edit_bot_tx" xml:space="preserve">
+    <value>Blok Alt İçeriği</value>
+  </data>
+  <data name="default_activities" xml:space="preserve">
+    <value>Etkinlikler</value>
+  </data>
+  <data name="default_annous" xml:space="preserve">
+    <value>Duyurular</value>
+  </data>
+  <data name="default_articles" xml:space="preserve">
+    <value>Makaleler</value>
+  </data>
+  <data name="default_galleries" xml:space="preserve">
+    <value>Galeriler</value>
+  </data>
+  <data name="default_gbook" xml:space="preserve">
+    <value>Z. Defteri</value>
+  </data>
+  <data name="default_guests" xml:space="preserve">
+    <value>Ziyaretçiler</value>
+  </data>
+  <data name="default_help" xml:space="preserve">
+    <value>&lt;strong&gt;&lt;em&gt;"Dont Limit Yourself."&lt;/em&gt;&lt;/strong&gt; Design your site whatever you want.</value>
+  </data>
+  <data name="default_member" xml:space="preserve">
+    <value>Hesap</value>
+  </data>
+  <data name="default_menu" xml:space="preserve">
+    <value>Menü</value>
+  </data>
+  <data name="default_news" xml:space="preserve">
+    <value>Haberler</value>
+  </data>
+  <data name="default_pages" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="default_pageviews" xml:space="preserve">
+    <value>Sayfa Görüntüleme</value>
+  </data>
+  <data name="default_photos_exp" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="default_photos_form" xml:space="preserve">
+    <value>Varsayılan Resimleri Tanımlayın</value>
+  </data>
+  <data name="default_photos_help" xml:space="preserve">
+    <value>Bu bölümde Web sitenizde bulunan sayfalara ait resim varsayılanlarını ayarlayabilirsin.</value>
+  </data>
+  <data name="default_photos_img" xml:space="preserve">
+    <value>Resmi değiştir</value>
+  </data>
+  <data name="default_photos_list" xml:space="preserve">
+    <value>Tanımlı Resimler</value>
+  </data>
+  <data name="default_photos_name" xml:space="preserve">
+    <value>Resim anahtar değeri</value>
+  </data>
+  <data name="default_photos_title" xml:space="preserve">
+    <value>Varsayılan Resimler</value>
+  </data>
+  <data name="default_polls" xml:space="preserve">
+    <value>Anketler</value>
+  </data>
+  <data name="default_quick" xml:space="preserve">
+    <value>Quick Tools</value>
+  </data>
+  <data name="default_report" xml:space="preserve">
+    <value>Son 1 ayda en çok ziyaret edilen 20 sayfa</value>
+  </data>
+  <data name="default_report_help" xml:space="preserve">
+    <value>Hangi sayafalarının hit aldığını keşfet.</value>
+  </data>
+  <data name="default_report_quests" xml:space="preserve">
+    <value>Ziyaretçi İstatistikleri</value>
+  </data>
+  <data name="default_select_temp" xml:space="preserve">
+    <value>Eklenti için kullanmak istediğiniz şablonu seçiniz</value>
+  </data>
+  <data name="default_start" xml:space="preserve">
+    <value>DASHBOARD</value>
+  </data>
+  <data name="default_statistic" xml:space="preserve">
+    <value>STATISTICS</value>
+  </data>
+  <data name="default_statistic_help" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="default_templates" xml:space="preserve">
+    <value>Şablonlar</value>
+  </data>
+  <data name="default_temp_add_meta" xml:space="preserve">
+    <value>Şablon anahtar değeri</value>
+  </data>
+  <data name="default_temp_help" xml:space="preserve">
+    <value>Bu bölümde Web sitenizde bulunan sayfalara ait şablonlar oluşturulmaktadır. Bu sayede her sayfayı, farklı şekilde oluşturduğunuz şablonlara ekleyebilirsiniz.</value>
+  </data>
+  <data name="default_temp_list" xml:space="preserve">
+    <value>Tanımlı Şablon - Eklenti Kayıtları</value>
+  </data>
+  <data name="default_temp_meta" xml:space="preserve">
+    <value>Yeni Şablon Anahtarı Tanımlayın</value>
+  </data>
+  <data name="default_temp_title" xml:space="preserve">
+    <value>Varsayılan Şablonlar</value>
+  </data>
+  <data name="default_users" xml:space="preserve">
+    <value>Kullanıcılar</value>
+  </data>
+  <data name="default_visits" xml:space="preserve">
+    <value>Ziyaretler</value>
+  </data>
+  <data name="default_welcome" xml:space="preserve">
+    <value>Welcome Sanaloger</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="email_add_form" xml:space="preserve">
+    <value>E-posta Şablonu Oluşturma Formu</value>
+  </data>
+  <data name="email_add_form_key_value" xml:space="preserve">
+    <value>Anahtar Değer</value>
+  </data>
+  <data name="email_add_form_message" xml:space="preserve">
+    <value>E-posta mesajı</value>
+  </data>
+  <data name="email_add_form_pass" xml:space="preserve">
+    <value>SMTP şifreniz</value>
+  </data>
+  <data name="email_add_form_port" xml:space="preserve">
+    <value>SMTP port numarası</value>
+  </data>
+  <data name="email_add_form_send_mail" xml:space="preserve">
+    <value>Kime gönderilecek(e-posta adresi)</value>
+  </data>
+  <data name="email_add_form_send_name" xml:space="preserve">
+    <value>Gönderen İsmi</value>
+  </data>
+  <data name="email_add_form_speci" xml:space="preserve">
+    <value>Mesaja Ait Bilgi (özel ifadeler vs.)</value>
+  </data>
+  <data name="email_add_form_ssl" xml:space="preserve">
+    <value>SSL</value>
+  </data>
+  <data name="email_add_form_subject" xml:space="preserve">
+    <value>Konu</value>
+  </data>
+  <data name="email_add_form_url" xml:space="preserve">
+    <value>SMTP host url adresi</value>
+  </data>
+  <data name="email_add_form_user" xml:space="preserve">
+    <value>Gönderen (smtp User) e-posta adresi</value>
+  </data>
+  <data name="email_edit_form_help" xml:space="preserve">
+    <value>Oluşturduğun bir e-posta şablonunu Düzenle.</value>
+  </data>
+  <data name="email_edit_form_title" xml:space="preserve">
+    <value>E-posta Şablonu Düzenleme</value>
+  </data>
+  <data name="email_forms_help" xml:space="preserve">
+    <value>Bu bölümde oluşturmuş olduğun Eposta şablonları listelenmektedir.</value>
+  </data>
+  <data name="email_forms_list" xml:space="preserve">
+    <value>Blok Listesi</value>
+  </data>
+  <data name="email_forms_title" xml:space="preserve">
+    <value>E-posta Şablonları</value>
+  </data>
+  <data name="email_form_add_help" xml:space="preserve">
+    <value>Yeni bir e-posta şablonu oluştur.</value>
+  </data>
+  <data name="email_form_add_title" xml:space="preserve">
+    <value>Yeni E-posta Şablonu</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>Anahtar</value>
+  </data>
+  <data name="send" xml:space="preserve">
+    <value>Gönder</value>
+  </data>
+  <data name="template" xml:space="preserve">
+    <value>Şablon</value>
+  </data>
+  <data name="web_cont_desc_name" xml:space="preserve">
+    <value>Tanımlayıcı İsim</value>
+  </data>
+  <data name="web_cont_exp" xml:space="preserve">
+    <value>Açıklama</value>
+  </data>
+  <data name="web_cont_help" xml:space="preserve">
+    <value>Bu bölümde web siteniz için sistemde varolan web kontroller hazır çalışır halde bulunmaktadır. Sizin için uygun ayarlamaları yapıp kullanabilirsiniz.</value>
+  </data>
+  <data name="web_cont_list" xml:space="preserve">
+    <value>Web Kontroller</value>
+  </data>
+  <data name="web_cont_name" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="web_cont_name_view" xml:space="preserve">
+    <value>Başlık(?)</value>
+  </data>
+  <data name="web_cont_title" xml:space="preserve">
+    <value>Web Kontrol Ekle</value>
+  </data>
+  <data name="web_cont_view" xml:space="preserve">
+    <value>Görünürlük</value>
+  </data>
+  <data name="email_edit_form" xml:space="preserve">
+    <value>Email Düzenleme Formu</value>
+  </data>
+  <data name="exit" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="e_post" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="gallery_add_photos" xml:space="preserve">
+    <value>Galeriye Resim Ekle</value>
+  </data>
+  <data name="gallery_add_photos_help" xml:space="preserve">
+    <value>Galerine yeni resim ekleyebilirsin.</value>
+  </data>
+  <data name="gallery_add_photos_title" xml:space="preserve">
+    <value>Yeni Resim Ekle</value>
+  </data>
+  <data name="gallery_photos" xml:space="preserve">
+    <value>Galerideki Resimler</value>
+  </data>
+  <data name="gallery_photos_help" xml:space="preserve">
+    <value>Bu bölümde eklemiş olduğun resimlerin bilgilerini güncelleyebilirsin veya yeniden
+            düzenleyebilirsiniz.</value>
+  </data>
+  <data name="gallery_photos_select" xml:space="preserve">
+    <value>Galeri seçiniz</value>
+  </data>
+  <data name="gallery_photos_title" xml:space="preserve">
+    <value>Galeride Bulunan Resimler</value>
+  </data>
+  <data name="guestbook_comments" xml:space="preserve">
+    <value>Yorumlar</value>
+  </data>
+  <data name="guestbook_comments_answer" xml:space="preserve">
+    <value>Cevap</value>
+  </data>
+  <data name="guestbook_comments_name" xml:space="preserve">
+    <value>Yorum Başlığı</value>
+  </data>
+  <data name="guestbook_title" xml:space="preserve">
+    <value>Ziyaretçi Defteri</value>
+  </data>
+  <data name="guestbook_title_help" xml:space="preserve">
+    <value>Ziyaretçilerin yazmış oldukları yorumlar burada. Onaylamak istediğini seçip yayınlayabilirsin.</value>
+  </data>
+  <data name="heading" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="install_theme_select" xml:space="preserve">
+    <value>Kurmak istediğin temayı işaretle</value>
+  </data>
+  <data name="install_theme_setup_create_content" xml:space="preserve">
+    <value>Ön&amp;nbsp; tanımlı içeriği oluştur</value>
+  </data>
+  <data name="install_theme_setup_exp" xml:space="preserve">
+    <value>* Tema sunucuda yüklü ise bu adımı geçebilirsiniz&lt;br /&gt;
+                                            * Yukarıda yazdığınız isimle bir klasör oluşturulacak ve dosyalarınız o klasörün içerisine çıkartılacakır.&lt;br /&gt;</value>
+  </data>
+  <data name="install_theme_setup_exp_2" xml:space="preserve">
+    <value>Yüklemek istediğiniz temaya ait dosyaları zip dosyası haline getirip seçiniz.</value>
+  </data>
+  <data name="install_theme_setup_exp_3" xml:space="preserve">
+    <value>Temanı seç...</value>
+  </data>
+  <data name="install_theme_setup_exp_4" xml:space="preserve">
+    <value>* Yüklenen dosyaların kaydedilebilmesi için themes klasörünün yazma izni olmalıdır.</value>
+  </data>
+  <data name="install_theme_setup_finish" xml:space="preserve">
+    <value>Bitir</value>
+  </data>
+  <data name="install_theme_setup_go" xml:space="preserve">
+    <value>Devam et</value>
+  </data>
+  <data name="install_theme_setup_wizard" xml:space="preserve">
+    <value>Kurulum Sihirbazı</value>
+  </data>
+  <data name="install_theme_setup_wizard_name" xml:space="preserve">
+    <value>Tema için bir isim giriniz</value>
+  </data>
+  <data name="install_theme_title" xml:space="preserve">
+    <value>Tema Kur</value>
+  </data>
+  <data name="install_theme_title_help" xml:space="preserve">
+    <value>Bu bölümde farklı bir Sanalog teması kurup web siteni zenginleştirebilirsin.</value>
+  </data>
+  <data name="languages_edit_content" xml:space="preserve">
+    <value>Dil İçeriği Düzenleyin</value>
+  </data>
+  <data name="languages_edit_select" xml:space="preserve">
+    <value>Dil Seçimi</value>
+  </data>
+  <data name="languages_edit_slct" xml:space="preserve">
+    <value>Dil Seç</value>
+  </data>
+  <data name="languages_edit_title" xml:space="preserve">
+    <value>Form Dil Ayarları</value>
+  </data>
+  <data name="languages_edit_title_help" xml:space="preserve">
+    <value>Bu bölümde dil düzenlemelerini yapabilirsin.</value>
+  </data>
+  <data name="languages_select" xml:space="preserve">
+    <value>Kullanmak İstediğiniz Dilleri İşaretleyiniz</value>
+  </data>
+  <data name="languages_title" xml:space="preserve">
+    <value>Yayınlama Dilleri</value>
+  </data>
+  <data name="languages_title_help" xml:space="preserve">
+    <value>Bu bölümde dil tanımlamalarınızı yapabilirsin.</value>
+  </data>
+  <data name="languages_tr" xml:space="preserve">
+    <value>tr (Türkçe)</value>
+  </data>
+  <data name="login_admin_footer_1" xml:space="preserve">
+    <value>Copyright &amp;copy; 2004 -</value>
+  </data>
+  <data name="login_admin_footer_2" xml:space="preserve">
+    <value>Embedded
+                by &amp;reg; &lt;a href="http://www.sanalog.org"&gt;SANALOG&lt;/a&gt; v1.5.1.4 | Free Open Source Content Management System. [C.M.S.] It is protected by the &lt;a href="http://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank"&gt;GNU - GPL 2+ General Public License&lt;/a&gt;.</value>
+  </data>
+  <data name="login_admin_forgot_pass" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+  <data name="login_admin_header" xml:space="preserve">
+    <value>SANALOG | Sınır Sensin.</value>
+  </data>
+  <data name="login_admin_input" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="login_admin_sent_pass" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="login_admin_title" xml:space="preserve">
+    <value>Sanalog &lt;small&gt;Admin&lt;/small&gt;</value>
+  </data>
+  <data name="master_activites" xml:space="preserve">
+    <value>Activities</value>
+  </data>
+  <data name="master_announs" xml:space="preserve">
+    <value>Announcement</value>
+  </data>
+  <data name="master_announs_1" xml:space="preserve">
+    <value>Announcments</value>
+  </data>
+  <data name="master_announs_add" xml:space="preserve">
+    <value>New Announcement</value>
+  </data>
+  <data name="master_article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="master_articles" xml:space="preserve">
+    <value>Articles</value>
+  </data>
+  <data name="master_article_add" xml:space="preserve">
+    <value>New Article</value>
+  </data>
+  <data name="master_article_cat" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="master_article_comments" xml:space="preserve">
+    <value>Article Comments</value>
+  </data>
+  <data name="master_article_zip" xml:space="preserve">
+    <value>Zip Article Upload</value>
+  </data>
+  <data name="master_control_panel" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="master_file_manager" xml:space="preserve">
+    <value>Media Manager</value>
+  </data>
+  <data name="master_menus" xml:space="preserve">
+    <value>Menus</value>
+  </data>
+  <data name="master_menus_add" xml:space="preserve">
+    <value>Menus</value>
+  </data>
+  <data name="master_menus_block_add" xml:space="preserve">
+    <value>New Menu</value>
+  </data>
+  <data name="master_my_information" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="master_news" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="master_news_1" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="master_news_add" xml:space="preserve">
+    <value>New News</value>
+  </data>
+  <data name="master_pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="master_pages_add" xml:space="preserve">
+    <value>New Page</value>
+  </data>
+  <data name="master_portfolio" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="master_portfolios" xml:space="preserve">
+    <value>References</value>
+  </data>
+  <data name="master_portfolio_add" xml:space="preserve">
+    <value>New Reference</value>
+  </data>
+  <data name="master_shop" xml:space="preserve">
+    <value>Shop</value>
+  </data>
+  <data name="master_shop_add_products" xml:space="preserve">
+    <value>New Product</value>
+  </data>
+  <data name="master_shop_cat" xml:space="preserve">
+    <value>Cetegories</value>
+  </data>
+  <data name="master_shop_products" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="master_slogan" xml:space="preserve">
+    <value>{ Sınır Sensin }</value>
+  </data>
+  <data name="master_view_web" xml:space="preserve">
+    <value>View Site</value>
+  </data>
+  <data name="new_add_image" xml:space="preserve">
+    <value>Yeni Resim Ekle</value>
+  </data>
+  <data name="url_link" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="verification_code" xml:space="preserve">
+    <value>Verification Code</value>
+  </data>
+  <data name="active" xml:space="preserve">
+    <value>Active (?)</value>
+  </data>
+  <data name="master_activite" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="master_activite_add" xml:space="preserve">
+    <value>New Activity</value>
+  </data>
+  <data name="master_auth_defination" xml:space="preserve">
+    <value>Authorization Definitions</value>
+  </data>
+  <data name="master_auth_group" xml:space="preserve">
+    <value>Authorization Groups</value>
+  </data>
+  <data name="master_blocks" xml:space="preserve">
+    <value>Blocks</value>
+  </data>
+  <data name="master_block_add" xml:space="preserve">
+    <value>New Block</value>
+  </data>
+  <data name="master_customize" xml:space="preserve">
+    <value>Customize</value>
+  </data>
+  <data name="master_default_images" xml:space="preserve">
+    <value>Default Images</value>
+  </data>
+  <data name="master_design" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="master_gallery" xml:space="preserve">
+    <value>Galleries</value>
+  </data>
+  <data name="master_guest_book" xml:space="preserve">
+    <value>Guest Book</value>
+  </data>
+  <data name="master_language" xml:space="preserve">
+    <value>Form Language Settings</value>
+  </data>
+  <data name="master_language_identy" xml:space="preserve">
+    <value>Publish Languages</value>
+  </data>
+  <data name="master_mail_template" xml:space="preserve">
+    <value>E-Mail Templates</value>
+  </data>
+  <data name="master_membership" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="master_modules" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="master_place_holder" xml:space="preserve">
+    <value>Placeholders</value>
+  </data>
+  <data name="master_poll" xml:space="preserve">
+    <value>Poll</value>
+  </data>
+  <data name="master_polls" xml:space="preserve">
+    <value>Polls</value>
+  </data>
+  <data name="master_poll_add" xml:space="preserve">
+    <value>New Poll</value>
+  </data>
+  <data name="master_portfolio_add_cat" xml:space="preserve">
+    <value>New Reference Category</value>
+  </data>
+  <data name="master_portfolio_cat" xml:space="preserve">
+    <value>Reference Categories</value>
+  </data>
+  <data name="master_project" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="master_projects" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="master_project_add" xml:space="preserve">
+    <value>New Project</value>
+  </data>
+  <data name="master_project_add_pages" xml:space="preserve">
+    <value>New Project Sub Page</value>
+  </data>
+  <data name="master_project_cat" xml:space="preserve">
+    <value>Project Categories</value>
+  </data>
+  <data name="master_project_pages" xml:space="preserve">
+    <value>Project Sub Pages</value>
+  </data>
+  <data name="master_search_engine" xml:space="preserve">
+    <value>Search Engine</value>
+  </data>
+  <data name="master_settings" xml:space="preserve">
+    <value>General Settings</value>
+  </data>
+  <data name="master_templates" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="master_templates_default" xml:space="preserve">
+    <value>Default Templates</value>
+  </data>
+  <data name="master_templates_transfer_pages" xml:space="preserve">
+    <value>Transfer Template Pages</value>
+  </data>
+  <data name="master_temp_settings" xml:space="preserve">
+    <value>Theme Settings</value>
+  </data>
+  <data name="master_temp_wizard" xml:space="preserve">
+    <value>Theme Setup</value>
+  </data>
+  <data name="master_url_value" xml:space="preserve">
+    <value>Url Key Values</value>
+  </data>
+  <data name="master_users" xml:space="preserve">
+    <value>Users</value>
+  </data>
+  <data name="master_web_controls" xml:space="preserve">
+    <value>Web Controls</value>
+  </data>
+  <data name="members_all_users" xml:space="preserve">
+    <value>Tüm Kullanıcılar</value>
+  </data>
+  <data name="members_help" xml:space="preserve">
+    <value>Bu bölümde üyeler listelenmektedir. Dilerseniz sayfanın sağ kısmındaki yeni butonuna tıklayıp yeni bir üye oluşturabilirsiniz.</value>
+  </data>
+  <data name="members_list" xml:space="preserve">
+    <value>Üye Listesi</value>
+  </data>
+  <data name="members_new" xml:space="preserve">
+    <value>Yeni</value>
+  </data>
+  <data name="members_select_group" xml:space="preserve">
+    <value>Grup Seçiniz</value>
+  </data>
+  <data name="members_title" xml:space="preserve">
+    <value>Üyeler</value>
+  </data>
+  <data name="user_name" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="address" xml:space="preserve">
+    <value>Addresss</value>
+  </data>
+  <data name="birth_date" xml:space="preserve">
+    <value>Doğum Tarihi</value>
+  </data>
+  <data name="company_name" xml:space="preserve">
+    <value>Firma Adı</value>
+  </data>
+  <data name="connect_format" xml:space="preserve">
+    <value>Bağlantı Biçimi</value>
+  </data>
+  <data name="connect_format_in" xml:space="preserve">
+    <value>Dahili</value>
+  </data>
+  <data name="connect_format_out" xml:space="preserve">
+    <value>Harici</value>
+  </data>
+  <data name="e_post_error_message" xml:space="preserve">
+    <value>Incorrect e-mail format!</value>
+  </data>
+  <data name="home_phone" xml:space="preserve">
+    <value>Ev Telefon</value>
+  </data>
+  <data name="incorrect_entr" xml:space="preserve">
+    <value>Hatalı Giriş Sayısı</value>
+  </data>
+  <data name="members_add_form" xml:space="preserve">
+    <value>Üye Kayıt Formu</value>
+  </data>
+  <data name="members_detail_help" xml:space="preserve">
+    <value>Bu bölümde yeni üyeler kaydedebilirsiniz.</value>
+  </data>
+  <data name="members_detail_title" xml:space="preserve">
+    <value>Üyelik Formu</value>
+  </data>
+  <data name="members_edit_form" xml:space="preserve">
+    <value>Üye Düzenleme Formu</value>
+  </data>
+  <data name="members_edit_form_help" xml:space="preserve">
+    <value>Bu bölümde üye bilgilerinizi ayarlayabilirsiniz.</value>
+  </data>
+  <data name="members_edit_form_title" xml:space="preserve">
+    <value>Üye Bilgilerini Güncelle</value>
+  </data>
+  <data name="members_id_no" xml:space="preserve">
+    <value>Tc Kimlik No</value>
+  </data>
+  <data name="members_role_add_user" xml:space="preserve">
+    <value>Gruba kullanıcı ekleyin</value>
+  </data>
+  <data name="members_role_help" xml:space="preserve">
+    <value>Bu bölümde eklemiş olduğunuz projeye ait tanımlar bulunmaktadır. İsterseniz bu tanımları
+            değiştirebilir ya da silebilirsiniz.</value>
+  </data>
+  <data name="members_role_members" xml:space="preserve">
+    <value>Gruptaki Üyeler</value>
+  </data>
+  <data name="members_role_title" xml:space="preserve">
+    <value>Grup/Üye</value>
+  </data>
+  <data name="menus_group" xml:space="preserve">
+    <value>Menu Grubu</value>
+  </data>
+  <data name="menus_help" xml:space="preserve">
+    <value>Bu bölümde yeni menü oluşturabilir, oluşturduğunuz menüleri üst Menü veya alt Menü
+        olarak kaydedebilirsiniz. Oluşturduğunuz menülere tasarıma uygun menü İkonları da
+        ekleyebilirsiniz. Vermiş olduğunuz menü isimlerine dinamik olarak hazırladığınız
+        dahili bağlantıları kolaylıkla bağlayabilirsiz veya harici bağlantılar vererek,
+        sayfanızın ayrı pencerede ya da aynı pencerede açılmasını sağlayabilirsiniz.</value>
+  </data>
+  <data name="menus_position" xml:space="preserve">
+    <value>Menu Pozisyon</value>
+  </data>
+  <data name="menus_title" xml:space="preserve">
+    <value>Menus</value>
+  </data>
+  <data name="menus_your_menu" xml:space="preserve">
+    <value>Menu Listesi</value>
+  </data>
+  <data name="menu_group_entry_form" xml:space="preserve">
+    <value>Menü Giriş Formu</value>
+  </data>
+  <data name="menu_group_help" xml:space="preserve">
+    <value>Bu bölümde yeni menü grupları tanımlayabilirsiniz.</value>
+  </data>
+  <data name="menu_group_title" xml:space="preserve">
+    <value>Yeni Menü Oluştur</value>
+  </data>
+  <data name="menu_list" xml:space="preserve">
+    <value>Menu Listesi</value>
+  </data>
+  <data name="menu_name" xml:space="preserve">
+    <value>Menu İsmi</value>
+  </data>
+  <data name="mobil_fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="mobil_phone" xml:space="preserve">
+    <value>Cep Telefon</value>
+  </data>
+  <data name="more_information" xml:space="preserve">
+    <value>Detaylı Bilgi</value>
+  </data>
+  <data name="name_surname" xml:space="preserve">
+    <value>Ad-Soyad</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="target" xml:space="preserve">
+    <value>Hedef</value>
+  </data>
+  <data name="tax_admin" xml:space="preserve">
+    <value>Vergi Dairesi</value>
+  </data>
+  <data name="tax_no" xml:space="preserve">
+    <value>Vergi No</value>
+  </data>
+  <data name="work_phone" xml:space="preserve">
+    <value>İş Telefon</value>
+  </data>
+  <data name="article_date_error" xml:space="preserve">
+    <value>1.1.1900 - 1.1.2100 arası değer giriniz!</value>
+  </data>
+  <data name="news_add_content" xml:space="preserve">
+    <value>Haber İçeriği</value>
+  </data>
+  <data name="news_add_form" xml:space="preserve">
+    <value>Haber Oluşturma Formu</value>
+  </data>
+  <data name="news_add_help" xml:space="preserve">
+    <value>Yeni haber oluştur.</value>
+  </data>
+  <data name="news_add_title" xml:space="preserve">
+    <value>Haber Ekle</value>
+  </data>
+  <data name="news_edit_form" xml:space="preserve">
+    <value>Haber Düzenleme Formu</value>
+  </data>
+  <data name="news_edit_help" xml:space="preserve">
+    <value>Önceden oluşturduğun haberi düzenle.</value>
+  </data>
+  <data name="news_edit_title" xml:space="preserve">
+    <value>Haber Düzenleme</value>
+  </data>
+  <data name="news_help" xml:space="preserve">
+    <value>Bu bölümde oluşturmuş olduğun haberler listelenmektedir. Varolan haberi düzenleyebilir,
+        ya da seçip silebilirsin.</value>
+  </data>
+  <data name="news_list" xml:space="preserve">
+    <value>Haber Listesi</value>
+  </data>
+  <data name="news_title" xml:space="preserve">
+    <value>Haberler</value>
+  </data>
+  <data name="pages_add_help" xml:space="preserve">
+    <value>Yeni bir sayfa oluşturabilirsin.</value>
+  </data>
+  <data name="pages_add_title" xml:space="preserve">
+    <value>Yeni Sayfa Oluştur</value>
+  </data>
+  <data name="pages_des_name" xml:space="preserve">
+    <value>Sayfa Tanımlayıcı İsim</value>
+  </data>
+  <data name="pages_edit_content" xml:space="preserve">
+    <value>Sayfa İçeriği</value>
+  </data>
+  <data name="pages_edit_help" xml:space="preserve">
+    <value>Daha önce oluşturduğun bir sayfayı düzenleyebilirsin.</value>
+  </data>
+  <data name="pages_edit_title" xml:space="preserve">
+    <value>Sayfa Düzenleme</value>
+  </data>
+  <data name="pages_help" xml:space="preserve">
+    <value>Bu bölümde yeni bir sayfa oluşturabilirsiniz. Yeni sayfaya mutlaka bir şablon uygulanmalıdır.
+        Oluşturulan sayfaya galeri ekleyebilir, Kimlerin sayfayı görmesini istiyorsanız
+        o şekilde gizlilik korumasına alabilirsiniz.Oluşturmuş olduğunuz sayfanın linkini
+        dilediğiniz menüye bağlayabilirsiniz. Silmek istediğiniz sayfayı ya da sayfaları
+        seçip toplu biçimde de silebilirsiniz.</value>
+  </data>
+  <data name="pages_list" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="pages_propertis" xml:space="preserve">
+    <value>Sayfa Özellikleri</value>
+  </data>
+  <data name="pages_templates" xml:space="preserve">
+    <value>Sayfa Şablonu</value>
+  </data>
+  <data name="pages_title" xml:space="preserve">
+    <value>Sayfaları Düzenle</value>
+  </data>
+  <data name="pages_url" xml:space="preserve">
+    <value>Sayfa Url'si</value>
+  </data>
+  <data name="pages_windows_title" xml:space="preserve">
+    <value>Pencere Başlığı</value>
+  </data>
+  <data name="products_off_photo" xml:space="preserve">
+    <value>Ait Resimler</value>
+  </data>
+  <data name="products_photo_add" xml:space="preserve">
+    <value>Yeni Resim Ekle</value>
+  </data>
+  <data name="products_photo_title" xml:space="preserve">
+    <value>Resim Ekle</value>
+  </data>
+  <data name="products_add_form" xml:space="preserve">
+    <value>Yeni Ürün Oluşturma Formu</value>
+  </data>
+  <data name="products_add_help" xml:space="preserve">
+    <value>Yeni bir ürün oluşturabilirsin.</value>
+  </data>
+  <data name="products_add_title" xml:space="preserve">
+    <value>Ürün Ekle</value>
+  </data>
+  <data name="products_all" xml:space="preserve">
+    <value>Tüm Ürünler</value>
+  </data>
+  <data name="products_cat" xml:space="preserve">
+    <value>Kategori</value>
+  </data>
+  <data name="products_cat_help" xml:space="preserve">
+    <value>Bu bölümde ürünlerin rahatlıkla gruplanması ve sergilenmesi için kategori oluşturabilirsin.
+            Kategorini ana kategori veya alt kategori olarak belirleyebilirsin.</value>
+  </data>
+  <data name="products_cat_name" xml:space="preserve">
+    <value>Kategori İsmi</value>
+  </data>
+  <data name="products_cat_title" xml:space="preserve">
+    <value>Ürün Kategorileri</value>
+  </data>
+  <data name="products_code" xml:space="preserve">
+    <value>Ürün Kodu</value>
+  </data>
+  <data name="products_created_cat" xml:space="preserve">
+    <value>Oluşturulan Kategori</value>
+  </data>
+  <data name="products_detail" xml:space="preserve">
+    <value>Ürün Detayı</value>
+  </data>
+  <data name="products_edit_help" xml:space="preserve">
+    <value>Oluşturduğun bir ürünü düzenleyebilirsin.</value>
+  </data>
+  <data name="products_edit_title" xml:space="preserve">
+    <value>Ürün Düzenle</value>
+  </data>
+  <data name="products_error" xml:space="preserve">
+    <value>0 - 255 arası değer giriniz!</value>
+  </data>
+  <data name="products_help" xml:space="preserve">
+    <value>Bu bölümde eklemiş olduğun ürünler listelenmektedir. Ürünlere vermiş olduğun
+            sıralamayı bu kısımdan kolaylıkla değiştirebilirsin. Ayrıca ürün arama formu ile
+            işlem yapmak istediğin ürünü filtreleyip kolaylıkla bulabilirsin.</value>
+  </data>
+  <data name="products_list" xml:space="preserve">
+    <value>Ürün Listesi</value>
+  </data>
+  <data name="products_name" xml:space="preserve">
+    <value>Ürün Adı</value>
+  </data>
+  <data name="products_pic_error" xml:space="preserve">
+    <value>Ürün Vitrin Resmi</value>
+  </data>
+  <data name="products_price" xml:space="preserve">
+    <value>Fiyat</value>
+  </data>
+  <data name="products_price_error" xml:space="preserve">
+    <value>Hatalı tutar girdiniz!</value>
+  </data>
+  <data name="products_row_error" xml:space="preserve">
+    <value>0 - 30000 arası değer giriniz!</value>
+  </data>
+  <data name="products_search" xml:space="preserve">
+    <value>Ürün Arama</value>
+  </data>
+  <data name="products_title" xml:space="preserve">
+    <value>Ürünler</value>
+  </data>
+  <data name="products_view" xml:space="preserve">
+    <value>Ürün kategorilerde görünsün</value>
+  </data>
+  <data name="products_view_cat" xml:space="preserve">
+    <value>Ürün hangi kategorilerde görünsün</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Arama</value>
+  </data>
+  <data name="search_end" xml:space="preserve">
+    <value>Aramayı Sonlandır</value>
+  </data>
+  <data name="date_error" xml:space="preserve">
+    <value>1.1.1900 - 1.1.2100 arası değer giriniz!</value>
+  </data>
+  <data name="photo_gallery_add_album" xml:space="preserve">
+    <value>Yeni Albüm Oluştur</value>
+  </data>
+  <data name="photo_gallery_album" xml:space="preserve">
+    <value>Fotoğraf Albümleri</value>
+  </data>
+  <data name="photo_gallery_code" xml:space="preserve">
+    <value>Galeri Kodu</value>
+  </data>
+  <data name="photo_gallery_help" xml:space="preserve">
+    <value>Yeni fotoğraf albümleri oluştur.</value>
+  </data>
+  <data name="photo_gallery_name" xml:space="preserve">
+    <value>Galeri Adı</value>
+  </data>
+  <data name="photo_gallery_title" xml:space="preserve">
+    <value>Galeri</value>
+  </data>
+  <data name="place_holder_help" xml:space="preserve">
+    <value>Bu bölümde Şablonunuzda bulunan yer tutucular bulunumaktadır.</value>
+  </data>
+  <data name="place_holder_id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="place_holder_list" xml:space="preserve">
+    <value>Yer Tututucular</value>
+  </data>
+  <data name="place_holder_name" xml:space="preserve">
+    <value>Yer Tutucu İsmi</value>
+  </data>
+  <data name="place_holder_title" xml:space="preserve">
+    <value>Yer Tutucular</value>
+  </data>
+  <data name="poll" xml:space="preserve">
+    <value>Anket</value>
+  </data>
+  <data name="poll_help" xml:space="preserve">
+    <value>Bu bölümde tüm anketlerinin listesini bulabilirsin.</value>
+  </data>
+  <data name="poll_list" xml:space="preserve">
+    <value>Anket Listesi</value>
+  </data>
+  <data name="poll_result" xml:space="preserve">
+    <value>Anket Sonuçları</value>
+  </data>
+  <data name="poll_results" xml:space="preserve">
+    <value>Sonuçlar</value>
+  </data>
+  <data name="poll_title" xml:space="preserve">
+    <value>Anketler</value>
+  </data>
+  <data name="project_add" xml:space="preserve">
+    <value>Proje Oluşturun</value>
+  </data>
+  <data name="project_add_help" xml:space="preserve">
+    <value>Yeni bir proje ekleyebilirsin.</value>
+  </data>
+  <data name="project_add_title" xml:space="preserve">
+    <value>Yeni Proje Oluştur</value>
+  </data>
+  <data name="project_cat" xml:space="preserve">
+    <value>Proje Kategorisi</value>
+  </data>
+  <data name="project_cat_help" xml:space="preserve">
+    <value>Projelerin için kategori oluşturabilirsin. Oluşturduğun kategorileri ana kategori
+            ya da alt kategori olarak belirleyebilirsin.</value>
+  </data>
+  <data name="project_cat_list" xml:space="preserve">
+    <value>Oluşturulan Kategoriler</value>
+  </data>
+  <data name="project_cat_title" xml:space="preserve">
+    <value>Yeni Kategori Ekle</value>
+  </data>
+  <data name="project_edit" xml:space="preserve">
+    <value>Proje Düzenle</value>
+  </data>
+  <data name="project_edit_help" xml:space="preserve">
+    <value>Daha önce oluşturduğun projeyi düzenleyebilirsin.</value>
+  </data>
+  <data name="project_edit_title" xml:space="preserve">
+    <value>Proje Düzenleme</value>
+  </data>
+  <data name="project_help" xml:space="preserve">
+    <value>Eklemiş olduğun projelerin listesi.</value>
+  </data>
+  <data name="project_home_page" xml:space="preserve">
+    <value>Proje Ana Sayfası &lt;small&gt;(Burayı alt sayfaları oluşturduktan sonra belirleyebilirsiniz.)&lt;/small&gt;</value>
+  </data>
+  <data name="project_home_pages" xml:space="preserve">
+    <value>Proje Anasayfası</value>
+  </data>
+  <data name="project_low_information" xml:space="preserve">
+    <value>Proje Alt Bilgileri</value>
+  </data>
+  <data name="project_select" xml:space="preserve">
+    <value>Proje Seçiniz</value>
+  </data>
+  <data name="project_sub_pages_add_form" xml:space="preserve">
+    <value>Proje Alt Bilgi Oluşturma Formu</value>
+  </data>
+  <data name="project_sub_pages_add_help" xml:space="preserve">
+    <value>Oluşturmuş olduğun proje kategorisine ait özellikler tanımla. Bir kategoriye ait birden çok özellik tanımlayabilirsin.</value>
+  </data>
+  <data name="project_sub_pages_add_title" xml:space="preserve">
+    <value>Proje Alt Bilgi Ekle</value>
+  </data>
+  <data name="project_sub_pages_detail" xml:space="preserve">
+    <value>Proje Alt Bilgileri</value>
+  </data>
+  <data name="project_sub_pages_edit_form" xml:space="preserve">
+    <value>Proje Alt Bilgi Düzenleme Formu</value>
+  </data>
+  <data name="project_sub_pages_edit_help" xml:space="preserve">
+    <value>Proje kategorileri için tanımladığın özellikleri düzenleyebilirsin.</value>
+  </data>
+  <data name="project_sub_pages_edit_title" xml:space="preserve">
+    <value>Proje Alt Bilgi Düzenle</value>
+  </data>
+  <data name="project_sub_pages_help" xml:space="preserve">
+    <value>Eklemiş olduğun projeye detay sayfaları tanımlayabilir, değiştirebilir veya silebilirsin.</value>
+  </data>
+  <data name="project_sub_pages_title" xml:space="preserve">
+    <value>Proje Alt Sayfaları</value>
+  </data>
+  <data name="project_title" xml:space="preserve">
+    <value>Projeler</value>
+  </data>
+  <data name="project_url" xml:space="preserve">
+    <value>Proje URL'si</value>
+  </data>
+  <data name="project_which" xml:space="preserve">
+    <value>Hangi Projeye Ait</value>
+  </data>
+  <data name="senkronize" xml:space="preserve">
+    <value>Senkronize Et</value>
+  </data>
+  <data name="article_header" xml:space="preserve">
+    <value>Makale Başlığı</value>
+  </data>
+  <data name="date_error_message" xml:space="preserve">
+    <value>Hatalı tarih!</value>
+  </data>
+  <data name="default_language_admin" xml:space="preserve">
+    <value>Varsayılan Admin Diliniz</value>
+  </data>
+  <data name="default_language_select" xml:space="preserve">
+    <value>Varsayılan Site Diliniz</value>
+  </data>
+  <data name="finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="lang_exs" xml:space="preserve">
+    <value>İfade</value>
+  </data>
+  <data name="lang_org_value" xml:space="preserve">
+    <value>Orjinal Değer (Türkçe)</value>
+  </data>
+  <data name="link_aspx" xml:space="preserve">
+    <value>Linklerde .aspx uzantısı kullanılsın</value>
+  </data>
+  <data name="location" xml:space="preserve">
+    <value>Konum</value>
+  </data>
+  <data name="mark" xml:space="preserve">
+    <value>Marka</value>
+  </data>
+  <data name="next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="page_blank" xml:space="preserve">
+    <value>Yeni Pencerede Aç</value>
+  </data>
+  <data name="page_self" xml:space="preserve">
+    <value>Aynı Pencerede Aç</value>
+  </data>
+  <data name="poll_edit_form" xml:space="preserve">
+    <value>Anket Düzenleme Formu</value>
+  </data>
+  <data name="poll_edit_help" xml:space="preserve">
+    <value>Bu bölümde yeni bir anket oluşturabilir veya düzenleyebilirsin.</value>
+  </data>
+  <data name="poll_edit_quest" xml:space="preserve">
+    <value>Soru</value>
+  </data>
+  <data name="poll_edit_quest_1" xml:space="preserve">
+    <value>Seçenek 1</value>
+  </data>
+  <data name="poll_edit_quest_2" xml:space="preserve">
+    <value>Seçenek 2</value>
+  </data>
+  <data name="poll_edit_quest_3" xml:space="preserve">
+    <value>Seçenek 3</value>
+  </data>
+  <data name="poll_edit_quest_4" xml:space="preserve">
+    <value>Seçenek 4</value>
+  </data>
+  <data name="poll_edit_quest_5" xml:space="preserve">
+    <value>Secenek 5</value>
+  </data>
+  <data name="poll_edit_quest_6" xml:space="preserve">
+    <value>Seçenek 6</value>
+  </data>
+  <data name="poll_edit_quest_7" xml:space="preserve">
+    <value>Seçenek 7</value>
+  </data>
+  <data name="poll_edit_quest_8" xml:space="preserve">
+    <value>Seçenek 8</value>
+  </data>
+  <data name="poll_edit_quest_result_view" xml:space="preserve">
+    <value>Sonuçlar Gösterilsin mi?</value>
+  </data>
+  <data name="poll_edit_title" xml:space="preserve">
+    <value>Anket Düzenleme</value>
+  </data>
+  <data name="project_name" xml:space="preserve">
+    <value>Proje Adı</value>
+  </data>
+  <data name="range_validator_error" xml:space="preserve">
+    <value>1-5 arası rakam giriniz!</value>
+  </data>
+  <data name="ref_add_help" xml:space="preserve">
+    <value>Yeni bir referans ekleyebilirsin.</value>
+  </data>
+  <data name="ref_add_name" xml:space="preserve">
+    <value>Referans Oluşturun</value>
+  </data>
+  <data name="ref_add_title" xml:space="preserve">
+    <value>Yeni Referans</value>
+  </data>
+  <data name="ref_cat_add" xml:space="preserve">
+    <value>Referans Kategorisi Oluşturun</value>
+  </data>
+  <data name="ref_cat_add_help" xml:space="preserve">
+    <value>Referanslarını gruplandırmak için referans kategorisi ekleyebilirsin.</value>
+  </data>
+  <data name="ref_cat_add_title" xml:space="preserve">
+    <value>Yeni Referans Kategorisi Ekle</value>
+  </data>
+  <data name="ref_cat_edit" xml:space="preserve">
+    <value>Referans Kategorisini Düzenle</value>
+  </data>
+  <data name="ref_cat_edit_help" xml:space="preserve">
+    <value>Eklemiş olduğun kategoriyi yeniden düzenleyebilirsin.</value>
+  </data>
+  <data name="ref_cat_edit_title" xml:space="preserve">
+    <value>Yeni Referans Kategorisi Düzenleme</value>
+  </data>
+  <data name="ref_cat_help" xml:space="preserve">
+    <value>Referanslarını gruplandırmak için oluşturmuş olduğun referans kategorileri burada.</value>
+  </data>
+  <data name="ref_cat_list" xml:space="preserve">
+    <value>Referans Kategori Listesi</value>
+  </data>
+  <data name="ref_cat_title" xml:space="preserve">
+    <value>Referans Kategorileri</value>
+  </data>
+  <data name="ref_edit_help" xml:space="preserve">
+    <value>Daha önce oluşturduğun referansı düzenle.</value>
+  </data>
+  <data name="ref_edit_title" xml:space="preserve">
+    <value>Referans Düzenleme</value>
+  </data>
+  <data name="ref_help" xml:space="preserve">
+    <value>Oluşturmuş olduğun referanslar burada. Düzenlemek istediğin
+            referasını seçip içeriğini değiştirebilir ya da seçtiğin referansı silebilirsin.</value>
+  </data>
+  <data name="ref_list" xml:space="preserve">
+    <value>Referans Listesi</value>
+  </data>
+  <data name="ref_title" xml:space="preserve">
+    <value>Referanslar</value>
+  </data>
+  <data name="ref_web_url" xml:space="preserve">
+    <value>Web Adresi (URL)</value>
+  </data>
+  <data name="roles_add_form" xml:space="preserve">
+    <value>Grup Oluştur</value>
+  </data>
+  <data name="roles_add_name" xml:space="preserve">
+    <value>Grup ismi</value>
+  </data>
+  <data name="roles_edit_help" xml:space="preserve">
+    <value>Bu bölümde eklemiş olduğun grupların yetkilerini düzenleyebilirsin.</value>
+  </data>
+  <data name="roles_edit_title" xml:space="preserve">
+    <value>Grubun Yetkilerini Düzenleyin</value>
+  </data>
+  <data name="roles_group" xml:space="preserve">
+    <value>Gruplar</value>
+  </data>
+  <data name="roles_help" xml:space="preserve">
+    <value>Bu bölümde oluşturacağınız guruplarla, kullanıcılarınıza belirlediğiniz yetkileri atayabilirsiniz.</value>
+  </data>
+  <data name="roles_list" xml:space="preserve">
+    <value>Yetkiler</value>
+  </data>
+  <data name="roles_title" xml:space="preserve">
+    <value>Yetki Grupları</value>
+  </data>
+  <data name="role_edit_auth" xml:space="preserve">
+    <value>Rol Yetkilendirme</value>
+  </data>
+  <data name="role_edit_name" xml:space="preserve">
+    <value>Yetki Tanımı</value>
+  </data>
+  <data name="search_engine_form" xml:space="preserve">
+    <value>Arama Motoru Formu</value>
+  </data>
+  <data name="search_engine_google_analt_id" xml:space="preserve">
+    <value>Analytics Profile ID değeri</value>
+  </data>
+  <data name="search_engine_google_name" xml:space="preserve">
+    <value>Google kullanıcı adı</value>
+  </data>
+  <data name="search_engine_google_pass" xml:space="preserve">
+    <value>Google şifre</value>
+  </data>
+  <data name="search_engine_help" xml:space="preserve">
+    <value>Bu bölümde arama motoruyla ilgili detayları belirleyebilirsin.</value>
+  </data>
+  <data name="search_engine_help2" xml:space="preserve">
+    <value>Arama motorları doğrulama kodların (birden fazla arama motorunun doğrulama meta taglarıni yazabilirsin)</value>
+  </data>
+  <data name="search_engine_help3" xml:space="preserve">
+    <value>Arama motorları analytics kodların (script tagları ile birlikte birden fazla arama motoru analytics kodu ekleyebilirsin)</value>
+  </data>
+  <data name="search_engine_title" xml:space="preserve">
+    <value>Arama Motoru Optimizasyonu</value>
+  </data>
+  <data name="sending" xml:space="preserve">
+    <value>Gönderiliyor...</value>
+  </data>
+  <data name="start_page_help" xml:space="preserve">
+    <value>Bu bölümde Web sitenizde bulunan sayfalara açılış ayarlarını yapabilirsin.</value>
+  </data>
+  <data name="start_page_select" xml:space="preserve">
+    <value>Açılış sayfanı seç</value>
+  </data>
+  <data name="start_page_title" xml:space="preserve">
+    <value>Genel Ayarlar</value>
+  </data>
+  <data name="tempalete_copy" xml:space="preserve">
+    <value>Şablon kopyalamak istemiyorum</value>
+  </data>
+  <data name="tempalete_name" xml:space="preserve">
+    <value>Şablon Adı</value>
+  </data>
+  <data name="templates_list" xml:space="preserve">
+    <value>Daha Önce Oluşturulan Şablonlar</value>
+  </data>
+  <data name="template_add_new" xml:space="preserve">
+    <value>Yeni Şablon Oluştur</value>
+  </data>
+  <data name="template_desing_title" xml:space="preserve">
+    <value>Sürükle bırak özelliği ile sayfan için içerikleri oluşturabilir ve düzenleyebilirsin.</value>
+  </data>
+  <data name="template_select_copy" xml:space="preserve">
+    <value>Kopyalamak istediğiniz şablon dizaynını seçiniz</value>
+  </data>
+  <data name="temp_add_help" xml:space="preserve">
+    <value>Bu bölümde Web sitenizde bulunan sayfalara ait şablonlar oluşturulmaktadır. Bu sayede her sayfayı, farklı şekilde oluşturduğunuz şablonlara ekleyebilirsiniz.</value>
+  </data>
+  <data name="temp_add_title" xml:space="preserve">
+    <value>Şablon Oluştur</value>
+  </data>
+  <data name="temp_page_transfer" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="temp_page_trans_help" xml:space="preserve">
+    <value>Bu bölümde varolan bir şablona bağladığın tüm sayfaları oluşturduğun başka bir şablona aktarabilirsin. Bu sayede yapısal değişikliklerde zaman kazanabilirsin.</value>
+  </data>
+  <data name="temp_page_trans_title" xml:space="preserve">
+    <value>Şablondaki Sayfaları Aktar</value>
+  </data>
+  <data name="temp_source" xml:space="preserve">
+    <value>Kaynak Şablon</value>
+  </data>
+  <data name="temp_target" xml:space="preserve">
+    <value>Hedef Şablon</value>
+  </data>
+  <data name="url_keys" xml:space="preserve">
+    <value>Url Keys-ler</value>
+  </data>
+  <data name="url_keys_add" xml:space="preserve">
+    <value>Yeni UrlKeysleri Ekle</value>
+  </data>
+  <data name="url_keys_name" xml:space="preserve">
+    <value>Url Keys Adı</value>
+  </data>
+  <data name="url_keys_title" xml:space="preserve">
+    <value>Url Keys</value>
+  </data>
+  <data name="url_keys_value" xml:space="preserve">
+    <value>Url Keys Değeri</value>
+  </data>
+  <data name="pages_windows_PCtitle" xml:space="preserve">
+    <value>Sayfa İçerik Başlığı</value>
+  </data>
+  <data name="menu_delete" xml:space="preserve">
+    <value>İçeriği Temizle</value>
+  </data>
+  <data name="menu_delete2" xml:space="preserve">
+    <value>Seçilen Menü Öğesini Sil</value>
+  </data>
+  <data name="url_keys_help" xml:space="preserve">
+    <value>Kendinize özel URL anahtarları belirleyebilir ya da varolan anahtarlarda değişiklikler yaparak daha temiz URL görünümleri oluşturabilirsiniz</value>
+  </data>
+  <data name="delete_onay" xml:space="preserve">
+    <value>İşlemi onaylıyor musunuz?</value>
+  </data>
+  <data name="eror_unexcepted" xml:space="preserve">
+    <value>Beklenmeyen bir hata oluştu!</value>
+  </data>
+  <data name="master_sanalog_announcements" xml:space="preserve">
+    <value>Announcements</value>
+  </data>
+  <data name="products_photo__help" xml:space="preserve">
+    <value>Bu bölümde ürünlerinin resimlerini ekleyebilirsin.</value>
+  </data>
+  <data name="login_admin_pass" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="login_admin_username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="master_sanalog_forum" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="master_sanalog_support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="default_comment" xml:space="preserve">
+    <value>Article Comments</value>
+  </data>
+  <data name="default_guestbok" xml:space="preserve">
+    <value>Visitors Comments</value>
+  </data>
+  <data name="default_members" xml:space="preserve">
+    <value>Members</value>
+  </data>
+  <data name="default_poll_rate" xml:space="preserve">
+    <value>Polls Votes</value>
+  </data>
+  <data name="login_eposta_wrong" xml:space="preserve">
+    <value>Wrong e-mail</value>
+  </data>
+  <data name="login_ful_fill" xml:space="preserve">
+    <value>Fill all fields.</value>
+  </data>
+  <data name="login_user_psw_wrong" xml:space="preserve">
+    <value>Wrong username or password.</value>
+  </data>
+  <data name="key_meta_desc" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="theme_select_help" xml:space="preserve">
+    <value>Sistemde yüklü olan temaları liteleyip geçerli temayı seçiniz.</value>
+  </data>
+  <data name="theme_select_save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="theme_select_themes" xml:space="preserve">
+    <value>Select WebSite Theme</value>
+  </data>
+  <data name="theme_select_title" xml:space="preserve">
+    <value>Select Theme</value>
+  </data>
+  <data name="theme_eror1" xml:space="preserve">
+    <value>Eror :</value>
+  </data>
+  <data name="theme_error2" xml:space="preserve">
+    <value>Theme is saved</value>
+  </data>
+  <data name="master_theme_select" xml:space="preserve">
+    <value>Select Theme</value>
+  </data>
+  <data name="master_plugins" xml:space="preserve">
+    <value>Plugins</value>
+  </data>
+  <data name="theme_select_themes_admin" xml:space="preserve">
+    <value>Select Admin Theme</value>
+  </data>
+  <data name="gallery_select" xml:space="preserve">
+    <value>Gallery</value>
+  </data>
+  <data name="product_vitrin" xml:space="preserve">
+    <value>Set Default Image</value>
+  </data>
+  <data name="master_favicon" xml:space="preserve">
+    <value>Change favicon</value>
+  </data>
+  <data name="proudct_image" xml:space="preserve">
+    <value>Ürün resimlerini kaydettikten sonra ekleyebileceksin.</value>
+  </data>
+  <data name="proudct_ImageInfo" xml:space="preserve">
+    <value>Ürün Resimleri</value>
+  </data>
+  <data name="login_admin_title_small" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="icon_sorting" xml:space="preserve">
+    <value>Sorting</value>
+  </data>
+  <data name="theme_install_file_list" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="theme_install_file_upload" xml:space="preserve">
+    <value>File Upload</value>
+  </data>
+  <data name="theme_install_ok" xml:space="preserve">
+    <value>Confirm and Upload</value>
+  </data>
+  <data name="theme_install_sub_title" xml:space="preserve">
+    <value>Bu sayafada tema, modül, user kontrol gibi bir çok yüklemeler yapabilirsin. Yüklenecek dosyalar ve klasörler sanalog yapısına tamamen uymalı ve şıkıştırılarak zip dosyası şeklinde yüklenmelidir.</value>
+  </data>
+  <data name="theme_install_title" xml:space="preserve">
+    <value>Theme/Module Update</value>
+  </data>
+  <data name="theme_install_zip_upload" xml:space="preserve">
+    <value>Select Zip File</value>
+  </data>
+</root>

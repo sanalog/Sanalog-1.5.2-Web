@@ -1,0 +1,185 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=en><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang=en><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang=en><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href='css/c3732c4.css'>
+    <script src="js/libs/modernizr-2.0.6.min.js"></script>
+</head>
+<body>
+    <div class="source" style="display: none">
+        <img src="img/sample/img1-small.jpg" class="zoomwizard">
+    </div>
+    <header>
+			<h1>ZoomWizard</h1>
+		</header>
+    <section>
+				<h2>Choose your mode and customize it!</h2>
+				<article>
+					<div class=img-wrap id=controls-wrap>
+						<img src="img/sample/img1-large.jpg" class=zoomwizard>
+					</div>
+					<form id=form-controls>
+						<ol>
+							<li><label for=controlstyle>Style:</label></li>
+							<li>
+								<select name=controlstyle autocomplete=off>
+									<option value=1>Style 1</option>
+									<option value=2>Style 2</option>
+									<option value=3>Style 3</option>
+									<option value=4>Style 4</option>
+									<option value=5>Style 5</option>
+									<option value=6>Style 6</option>
+									<option value=7>Style 7</option>
+									<option value=8>Style 8</option>
+									<option value=9>Style 9</option>
+									<option value=10>Style 10</option>
+								</select>
+							</li>
+							<li><label for=zoomlevel>Zoom level:</label></li>
+							<li>
+								<input type=text name=maxzoom value=4 autocomplete=off>
+							</li>
+							<li class=checkbox-label><label for=maxzoom>Show zoom buttons:</label></li>
+							<li class=checkbox>
+								<input type=checkbox name=showzoom autocomplete=off checked>
+							</li>
+							<li class=checkbox-label><label for=animated>Animated:</label></li>
+							<li class=checkbox>
+								<input type=checkbox name=animated autocomplete=off>
+							</li>
+							<li class=checkbox-label><label for=showslider>Show slider:</label></li>
+							<li class=checkbox>
+								<input type=checkbox name=showslider autocomplete=off checked>
+							</li>	
+							<li class=checkbox-label><label for=autohide>Autohide:</label></li>
+							<li class=checkbox>
+								<input type=checkbox name=autohide autocomplete=off>
+							</li>
+							<li class=checkbox-label><label for=showmove>Show move buttons:</label></li>
+							<li class=checkbox>
+								<input type=checkbox name=showmove autocomplete=off checked>
+							</li>
+							<li class=wide>
+								<input type=button name=Refresh autocomplete=off value=Refresh>
+							</li>
+						</ol>
+					</form>
+					<div class=clear></div>
+				</article>
+				<article>
+					<div class=img-wrap id=window-wrap>
+						<img src="img/sample/img2-small.jpg" class=zoomwizard>
+						<img src="img/sample/img2-large.jpg" class=zoomwizard-large>
+					</div>
+					<form id=form-window>
+						<ol>
+							<li><label for=source>Mode:</label></li>
+							<li><select name=source autocomplete=off>
+									<option value=1>Single large image</option>
+									<option value=2 selected>Thumbnail and large image</option>
+								</select>
+							</li>
+							<li><label for=windowstyle>Style:</label></li>
+							<li>
+								<select name=windowstyle autocomplete=off>
+									<option value=1>Rectangle - clean</option>
+									<option value=2 selected>Rectangle - 1</option>
+									<option value=3>Rectangle - 2</option>
+								</select>
+							</li>
+							<li><label for=zoomlevel>Zoom level:</label></li>
+							<li>
+								<input type=text name=zoomlevel value=4 autocomplete=off>
+							</li>
+							<li><label for=width>Width:</label></li>
+							<li>
+								<input type=text name=width value=250 autocomplete=off>
+							</li>
+							<li><label for=height>Height:</label></li>
+							<li>
+								<input type=text name=height value=250 autocomplete=off>
+							</li>
+							
+							<li><label for=hidecursor>Hide cursor:</label></li>
+							<li>
+								<input type=checkbox name=hidecursor autocomplete=off checked>
+							</li>
+							<li class=wide>
+								<input type=button name=Refresh autocomplete=off value=Refresh>
+							</li>
+						</ol>
+					</form>
+					<div class=clear></div>					
+				</article>
+				<article>
+					<div class=img-wrap id=inner-wrap>
+						<img src="img/sample/img3-small.jpg" class=zoomwizard>
+						<img src="img/sample/img3-large.jpg" class=zoomwizard-large>
+					</div>
+					<form id=form-scale>
+						<ol>
+							<li><label for=source>Mode:</label></li>
+							<li><select name=source autocomplete=off>
+									<option value=1>One small image</option>
+									<option value=2 selected>Thumbnail and large image</option>
+								</select>
+							</li>
+							<li><label for=zoomlevel>Zoom level:</label></li>
+							<li>
+								<input type=text name=zoomlevel value=4 autocomplete=off>
+							</li>
+							<li><label for=deadspace>Dead space around edges:</label></li>
+							<li>
+								<input type=text name=deadspace value=20 autocomplete=off>
+							</li>
+							<li class=wide>
+								<input type=button name=Refresh autocomplete=off value=Refresh>
+							</li>
+						</ol>
+					</form>
+					<div class=clear></div>
+				</article>
+		</section>
+    <div class="clear">
+    </div>
+    <section>
+			<h2>Description</h2>
+			<p>Zoom Wizard is a super flexible jQuery plugin that lets you add zoom functionality to your
+	img. It is a complete package with three totally different modes of zooming and you can
+	choose one that best fits your needs.
+	It also comes with an easy to use app that lets you customize the plugin the way you want.
+	You don't need to read pages of documentation, the app generates the jQuery code with
+	the options that you selected!</p>
+		</section>
+    <section class="feature">
+			<ul>
+				<li>3 zoom modes</li>
+				<li>13 user interface themes</li>
+				<li>supports either one image, or thumb + large image</li>
+				<li>suitable for many uses</li>
+				<li>highly customizable</li>
+				<li>comes with a web app for effortless setup</li>
+				<li>cross-browser</li>
+				<li>works with any layout</li>
+				<li>free support</li>
+			</ul>
+		</section>
+    <footer>
+		<p>&copy 2012. Made by One Scale Up.</p>
+	</footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>        window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>');</script>
+    <script defer src='js/5c8a156.js'></script>
+    <!--[if lt IE 7 ]><script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})});</script><![endif]-->
+</body>
+</html>

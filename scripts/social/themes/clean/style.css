@@ -1,0 +1,61 @@
+ @import url(../default/style.css);
+ 
+ #shareplus {
+ 	background: #fff;
+ 	color: #4E4E4E;
+ 	border: 0px;
+ 	padding: 0px;
+ 	
+ 	border: 5px rgba(213, 213, 213, 0.5) solid;
+}
+ 
+ /* --------------- Title --------------- */
+ 
+ #shareplus_title {
+ 	height: auto;
+ 	padding: 10px;
+ 	margin: 5px;
+ 	margin-bottom: 0px;
+ 	margin-left: 10px;
+ 	border: none;
+ 	border-bottom: 1px #d5d5d5 dashed;
+ 	color: #444;
+}
+ 
+ #shareplus_title span#shareplus_close a {
+ 	margin: -2px;
+ 	background: #d5d5d5;
+}
+ 
+ /* --------------- Icons List --------------- */
+ 
+ #shareplus_icons {
+ 	border: none;
+ 	-webkit-border-radius: 0px;
+ 	-moz-border-radius: 0px;
+ 	border-radius: 0px;
+ }
+   
+ /* --------------- Extras --------------- */
+ 
+	#shareplus_overlay {
+		background: rgba(51, 51, 51, 0.2);
+	}
+
+ 
+ #shareplus_extras {	
+ 	background: #fff;
+ 	padding: 10px;
+ 	padding-left: 15px;
+ 	
+ 	border: 0px;
+ 	border-top: 1px #d5d5d5 dashed;
+ 	 	
+ 	-webkit-border-bottom-right-radius: 5px;
+ 	-webkit-border-bottom-left-radius: 5px;
+ 	-moz-border-radius-bottomright: 5px;
+ 	-moz-border-radius-bottomleft: 5px;
+ 	border-bottom-right-radius: 5px;
+ 	border-bottom-left-radius: 5px;
+ }
+ 
